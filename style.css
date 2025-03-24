@@ -1061,4 +1061,105 @@ main {
 
 /* Earn Money Section */
 
+/* Recommendation Section */
+
+.recommendation {
+  margin-bottom: 1.5rem;
+}
+
+.recommendation .image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.recommendation-heading {
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.questions-container {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.question {
+  background-color: white;
+  padding: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.question-text {
+  border-radius: 0.25rem;
+  font-weight: 700;
+  color: #0c0e19;
+}
+
+.question-image {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.bAdJZz {
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 0.5s;
+}
+
+.answer {
+  font-size: 14px;
+  display: none;
+}
+
+.answer-wrapper {
+  overflow: hidden;
+}
+
+.answer-text {
+  padding: 12px;
+}
+
+.question-bg {
+  background: rgb(240, 131, 39);
+}
+
+.question-bg .question-text {
+  color: white;
+}
+
+.answer.open {
+  display: block;
+}
+
+.question-image.rotate {
+  transform: rotate(180deg);
+}
+
+@media (min-width: 900px) {
+  .recommendation-heading {
+    font-size: 34px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+
+  .answer {
+    font-size: 20px;
+  }
+
+  .answer-text {
+    padding: 24px;
+  }
+}
+
+/* Recommendation Section */
+
 /* Inviter Page */
