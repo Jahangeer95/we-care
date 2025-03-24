@@ -892,4 +892,173 @@ main {
 
 /* Inviter Banner */
 
+/* Earn Money Section */
+
+.earn-money {
+  width: 100%;
+  background: linear-gradient(rgb(247, 248, 249) 0%, rgb(250, 232, 214) 100%);
+}
+
+.earn-money-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.25rem;
+  gap: 0.5rem;
+}
+
+.earn-money-container .img-class {
+  display: none;
+  max-width: 680px;
+}
+
+.earn-money-content {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-width: 300px;
+}
+
+.earn-money-content .text-class {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.fjVnIV {
+  box-shadow: rgba(106, 115, 125, 0.16) 0px 0px 5px 5px;
+}
+
+.earn-money-content .text-container {
+  font-size: 12px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.text-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.text-money {
+  font-weight: 700;
+  color: #f08327;
+  margin-left: 1rem;
+  font-size: 12px;
+}
+
+.circle-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.voucher-class {
+  font-size: 12px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.25rem;
+  background-color: #cccccc;
+}
+
+.voucher-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  color: #898989;
+}
+
+.voucher-text {
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.voucher-description {
+  width: fit-content;
+  font-weight: 700;
+  margin-left: 1rem;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.voucher-tag {
+  color: #787878;
+  font-weight: 700;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: #efefef;
+  border-radius: 9999px;
+  margin-left: 0.75rem;
+}
+
+.earn-money-btn {
+  background-color: #f08327;
+  color: white;
+  text-align: center;
+  border-radius: 9999px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  cursor: pointer;
+  margin-top: 1.25rem;
+}
+
+@media (min-width: 900px) {
+  .earn-money-content {
+    min-width: 480px;
+  }
+
+  .earn-money-content .text-class {
+    font-size: 34px;
+  }
+
+  .earn-money-content .text-container {
+    font-size: 16px;
+  }
+
+  .text-money {
+    font-size: 20px;
+  }
+
+  .voucher-class {
+    font-size: 18px;
+  }
+
+  .voucher-description {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .earn-money-container .img-class {
+    display: block;
+  }
+  .earn-money-content {
+    padding-left: 32px;
+  }
+}
+
+/* Earn Money Section */
+
 /* Inviter Page */
