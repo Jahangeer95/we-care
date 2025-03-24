@@ -815,3 +815,81 @@ main {
 }
 
 /* popular courses */
+
+/* Inviter Page */
+
+/* Inviter Banner */
+
+.inviter-banner {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background-image: url("assets/header-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-text {
+  text-align: center;
+  color: #556987;
+  font-size: 14px;
+}
+
+.inviter-heading {
+  color: #2a3342;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.inviter-description {
+  text-align: center;
+  color: #556987;
+  font-size: 14px;
+}
+
+.inviter-banner-container {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.inviter-banner-badge {
+  padding: 0.25rem;
+  background-color: #f08327;
+  color: white;
+  font-size: 12px;
+  width: fit-content;
+  border-radius: 9999px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .banner-text {
+    font-size: 20px;
+  }
+
+  .heading {
+    font-size: 72px;
+  }
+
+  .inviter-description {
+    font-size: 20px;
+  }
+
+  .inviter-banner-badge {
+    padding: 0.5rem;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .inviter-banner-badge {
+    margin: 0;
+  }
+}
+
+/* Inviter Banner */
+
+/* Inviter Page */
