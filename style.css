@@ -714,6 +714,32 @@ main {
   margin-top: 0.5rem;
 }
 
+.dpYAAZ {
+  padding: 2.75px 5.5px;
+  background: rgb(247, 89, 127);
+  border-radius: 2.75px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+.ihJEmO {
+  padding: 2.75px 5.5px;
+  border: 1.37px solid rgb(203, 36, 49);
+  border-radius: 2.75px;
+  color: rgb(203, 36, 49);
+  font-size: 14px;
+  text-align: center;
+}
+
+.jXyvvA {
+  padding: 2.75px 5.5px;
+  background: rgb(255, 244, 208);
+  border-radius: 2.75px;
+  font-size: 14px;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .courses {
     padding-top: 1.25rem;
