@@ -6,6 +6,8 @@
 
 body {
   font-family: Microsoft JhengHei, Noto Sans TC Regular, sans-serif;
+  width: 100dvw;
+  overflow-x: hidden;
 }
 
 .header {
@@ -1351,3 +1353,125 @@ main {
 }
 
 /* Common Problems page */
+
+/* Activity Page */
+
+.activity {
+  width: 100dvw;
+  overflow-x: hidden;
+}
+
+.activity-banner {
+  max-width: 100%;
+}
+
+.blogs-container {
+  width: 100%;
+  padding: 24px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.blog-card {
+  margin: 0 auto 1.25rem;
+  width: 100%;
+  max-width: 343px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.blog-image-wrapper {
+  height: 200px;
+  overflow: hidden;
+}
+
+.blog-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.blog-description {
+  display: flex;
+  gap: 10px;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.blog-heading {
+  flex: 1 1 0%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.blog-active {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 12px;
+  border-radius: 9999px;
+}
+
+@media (min-width: 768px) {
+  .blog-card {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .blogs-container {
+    max-width: 720px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 24px 0;
+  }
+
+  .blog-card {
+    max-width: none;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .blogs-container {
+    column-gap: 100px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .blogs-container {
+    max-width: 1160px;
+    gap: 60px;
+    padding: 72px 0;
+  }
+
+  .blog-card {
+    max-width: none;
+  }
+
+  .blog-image-wrapper {
+    height: 288px;
+  }
+
+  .blog-heading {
+    font-size: 30px;
+  }
+}
+
+/* Activity Page */
