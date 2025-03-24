@@ -1163,3 +1163,191 @@ main {
 /* Recommendation Section */
 
 /* Inviter Page */
+
+/* Common Problems page */
+
+.common-problems {
+  width: 100%;
+}
+
+.common-problems-container {
+  width: 100%;
+  min-height: calc(100vh - 396px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.common-problems-container .heading {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.common-problems-container .tabs-container {
+  display: flex;
+  overflow: auto;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+  gap: 0.75rem;
+}
+
+.tabs-container .tab {
+  flex: 1;
+  text-align: center;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0.75rem 0.5rem;
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+}
+
+.tabs-content-container {
+  display: none;
+}
+
+.active-tab {
+  background-color: rgb(255 243 233) !important;
+  color: rgb(240 131 39) !important;
+}
+
+.active-content {
+  display: block;
+}
+
+.tabs-content {
+  margin-top: 1.25rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  border: 1px solid #e4e4e7;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.tabs-content .tabs-flex-container {
+  display: flex;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.tabs-flex-container .title {
+  width: 100%;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  font-size: 18px;
+}
+
+.hePHhI {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s;
+}
+
+.tabs-flex-container .text-description {
+  overflow: hidden;
+}
+
+.text-description p {
+  font-size: 16px;
+}
+
+.text-description .link {
+  font-size: 16px;
+  text-decoration: underline;
+  color: #2563eb;
+}
+
+.contact-container {
+  border-radius: 0.5rem;
+  background-color: #fff3e9;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.contact-content {
+  color: #787878;
+}
+
+.contact-content-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-btn {
+  background-color: #f08327;
+  color: white;
+  border-radius: 0.25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .common-problems-container .tabs-container {
+    width: 100%;
+  }
+
+  .contact-content-text {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 900px) {
+  .common-problems-container {
+    width: 712px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .common-problems-container .tabs-container {
+    gap: 0;
+  }
+  .tabs-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .contact-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-content-text {
+    font-size: 36px;
+  }
+
+  .contact-btn {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .common-problems-container {
+    width: 960px;
+  }
+}
+
+/* Common Problems page */
