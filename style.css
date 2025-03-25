@@ -1058,6 +1058,126 @@ main {
 
 /* Discussion Section */
 
+/* Top 10 Section*/
+
+.top10-container {
+  display: flex;
+  overflow: auto;
+  gap: 1rem;
+  padding: 1rem 1.25rem 1rem 0.25rem;
+}
+
+.top10-card-container {
+  margin-top: 1rem;
+}
+
+.top10-card {
+  display: flex;
+  width: 311px;
+  height: 67.5px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-courseCard approximation */
+  padding: 5px 0.375rem 0.25rem;
+  margin-bottom: 5.5px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.top10-card:hover {
+  background-color: #f8fafc;
+}
+
+.top10-card-image {
+  width: 104px;
+  height: 58.5px;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.top10-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.top10-card-content {
+  padding-left: 11px;
+  width: 182px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top10-truncated-heading {
+  font-weight: bold;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.top10-justify-between {
+  width: 100%;
+  margin-top: 0.375rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-text-system {
+  display: flex;
+  align-items: center;
+  color: orange;
+  font-size: 14px;
+}
+
+.ihJEmO {
+  padding: 2.75px 5.5px;
+  border: 1.37px solid rgb(203, 36, 49);
+  border-radius: 2.75px;
+  color: rgb(203, 36, 49);
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .top10-card-container {
+    margin-top: 1.75rem;
+  }
+
+  .top10-card {
+    width: 428px;
+    height: 93px;
+    padding: 6.8px 8.2px 5.5px;
+    border-radius: 5.5px;
+    margin-bottom: 5.5px;
+  }
+
+  .top10-card-image {
+    width: 143px;
+    height: 80px;
+    border-radius: 5.5px;
+  }
+
+  .top10-card-content {
+    width: 251px;
+  }
+
+  .top10-truncated-heading {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .top10-container {
+    padding: 0 0.5rem;
+  }
+  .xl-margin-right {
+    margin-right: 0.75rem; /* xl:mr-3 = 12px */
+  }
+}
+
 /* Live Section */
 
 .live {
