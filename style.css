@@ -3123,4 +3123,62 @@ main {
     padding: 16px 32px;
   }
 }
+
+.number-background-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+  background-image: url("assets/Num-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vertical-divider {
+  width: 1px;
+  height: 30px;
+  background-color: #cccccc;
+}
+
+.responsive-padded-box {
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.orange-heading {
+  color: #f08327;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.secondary-text {
+  color: #787878;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+@media (min-width: 1024px) {
+  .number-background-container {
+    padding: 20px 0;
+  }
+
+  .vertical-divider {
+    height: 80px;
+  }
+
+  .responsive-padded-box {
+    padding: 16px 52px;
+  }
+
+  .orange-heading {
+    font-size: 48px;
+  }
+
+  .secondary-text {
+    font-size: 18px;
+    margin-top: 32px;
+  }
+}
+
 /* Cooperate Page */
