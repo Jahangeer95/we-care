@@ -37,6 +37,8 @@ body {
 }
 
 .large-logo {
+  width: 70px;
+  height: auto;
   display: none;
   cursor: pointer;
 }
@@ -243,6 +245,11 @@ body {
 .logo-section img {
   width: 136px;
   cursor: pointer;
+}
+
+.logo-section img[alt="WaCareLogo"] {
+  width: 40px;
+  height: auto;
 }
 
 .logo-section .mobile-logo-footer {
