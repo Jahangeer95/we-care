@@ -1967,6 +1967,7 @@ main {
 
 .activity-banner {
   max-width: 100%;
+  width: inherit;
 }
 
 .blogs-container {
@@ -2006,13 +2007,15 @@ main {
 }
 
 .blog-description {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   gap: 10px;
   white-space: nowrap;
   align-items: center;
 }
 
-page- {
+.blog-heading {
   flex: 1 1 0%;
   overflow: hidden;
   text-overflow: ellipsis;
