@@ -344,6 +344,19 @@ main {
   width: 100dvw;
 }
 
+.home-main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1280px) {
+  /* xl breakpoint */
+  .home-main {
+    width: 1400px;
+  }
+}
+
 @media (min-width: 768px) {
   .large-logo {
     display: flex;
@@ -454,6 +467,7 @@ main {
   padding: 50px 0;
   width: 100%;
   height: 220px; /* Default height */
+  overflow: hidden !important;
 }
 .swiper-slide {
   display: flex;
@@ -461,7 +475,7 @@ main {
   align-items: center;
   background-color: #f0f0f0;
   border-radius: 10px;
-  overflow: hidden;
+  overflow: hidden !important;
   width: fit-content;
 }
 .swiper-slide img {
