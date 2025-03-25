@@ -1125,6 +1125,46 @@ main {
 }
 /* Live Section */
 
+/* Top Section */
+.responsive-scroll-top {
+  display: block;
+}
+
+.top-card {
+  display: flex;
+  align-items: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  cursor: pointer;
+}
+
+.top-text {
+  color: orange;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.top-description {
+  width: 100%;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .responsive-scroll-top {
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between;
+    column-gap: 1rem;
+    flex-wrap: nowrap;
+  }
+  .top-description {
+    width: 208px;
+  }
+}
+/* Top Section */
+
 /* profession highlights */
 .profession-higlights {
   padding-top: 1.25rem;
