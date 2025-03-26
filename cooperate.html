@@ -4,7 +4,134 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <title>Cooperate</title>
+    <style>
+      /* slider */
+      .swiper-container {
+        position: relative;
+        padding: 50px 0;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        height: 500px !important; /* Default height */
+        overflow: hidden !important;
+      }
+
+      .overlay-element {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.25rem; /* rounded */
+        opacity: 0.5; /* opacity-50 */
+        position: absolute; /* absolute */
+        z-index: 10; /* z-10 */
+      }
+
+      .absolute-element {
+        position: absolute;
+        border-radius: 0.25rem; /* rounded */
+        bottom: 8px;
+        left: 16px;
+        color: white; /* text-white */
+        z-index: 20; /* z-20 */
+        display: flex; /* flex */
+      }
+
+      .responsive-element {
+        width: 30px !important;
+        height: 30px !important;
+      }
+
+      @media (min-width: 1024px) {
+        /* lg breakpoint */
+        .absolute-element {
+          bottom: 24px;
+          left: 32px;
+        }
+      }
+
+      .image-card {
+        width: 280px;
+        height: 160px;
+        border-radius: 0.25rem; /* rounded */
+        background-image: url("assets/banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; /* bg-cover */
+        margin-left: auto; /* mx-auto */
+        margin-right: auto;
+        position: relative;
+        cursor: pointer;
+      }
+
+      @media (min-width: 1024px) {
+        /* lg breakpoint */
+        .image-card {
+          width: 600px;
+          height: 400px;
+        }
+      }
+
+      @media (min-width: 1536px) {
+        /* xxl breakpoint (adjust if needed) */
+        .image-card {
+          width: 800px;
+          height: 450px;
+        }
+      }
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        overflow: hidden !important;
+        width: fit-content;
+      }
+      .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border-radius: 10px;
+      }
+
+      .swiper-slide-active {
+        overflow: visible;
+      }
+
+      .swiper-custom-pagination {
+        display: flex;
+        gap: 5px;
+      }
+      /* Active Slide */
+      .swiper-slide-active img {
+        transform: scale(1.1);
+        opacity: 1;
+      }
+      /* Inactive Slides */
+      .swiper-slide:not(.swiper-slide-active) img {
+        opacity: 0.5;
+      }
+
+      .swiper-pagination-bullet {
+        width: 35px;
+        height: 7px;
+        border-radius: 5px;
+      }
+
+      .swiper-pagination-bullet-active {
+        width: 50px;
+        background: rgb(240, 131, 39);
+      }
+
+      @media (min-width: 768px) {
+        .swiper-container {
+          height: 360px;
+        }
+      }
+    </style>
   </head>
   <body>
     <header class="header">
@@ -266,6 +393,281 @@
 
       <!-- Partnership Programm -->
 
+      <!-- Slider -->
+      <div class="partnership-program-container">
+        <div class="partnership-program-title">
+          <div class="partnership-center-container">
+            <div class="sc-gVyKpa gOzaeF horizontal-divider"></div>
+            <div class="orange-dot"></div>
+          </div>
+          <h2 class="sc-eKZiaR kinuhG bold-aqua-heading" style="color: orange">
+            ESG 合作案例
+          </h2>
+          <div class="partnership-center-container">
+            <div class="orange-dot"></div>
+            <div class="sc-gpHHfC bCSiEB horizontal-divider"></div>
+          </div>
+        </div>
+        <p class="sc-hIVACf jkONCf partnership-centered-text">
+          感謝合作夥伴們的支持與信任，持續實踐共同SDGs指標，打造健康共融的永續環境。<br />永續議題涉及層面甚廣，無法單靠政府機關、機構團體、民間企業獨立提供解方，集結整合各單位讓資源效益最大化尤其重要，期待與更多企業團體建立多元夥伴關係共創社會影響力。
+        </p>
+        <div class="flex-container-img">
+          <img
+            class="responsive-image"
+            src="assets/pngwing1.svg"
+            alt="esg"
+          /><img
+            class="responsive-image"
+            src="assets/pngwing2.svg"
+            alt="esg"
+          /><img
+            class="responsive-image"
+            src="assets/pngwing3.svg"
+            alt="esg"
+          /><img class="responsive-image" src="assets/pngwing4.svg" alt="esg" />
+        </div>
+        <div class="slider-container">
+          <div
+            class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events h-[160px] lg:h-[400px] xxl:h-[450px] w-[288px] lg:w-[800px] xxl:w-[1000px] mx-auto"
+          >
+            <div
+              class="swiper-wrapper"
+              style="
+                transition-duration: 0ms;
+                transform: translate3d(-4000px, 0px, 0px);
+              "
+            >
+              <div
+                class="swiper-slide swiper-slide-duplicate"
+                data-swiper-slide-index="5"
+                style="width: 1000px"
+              >
+                <div class="image-card">
+                  <div class="sc-drMfKT iYHiay overlay-element"></div>
+                  <div class="absolute-element">
+                    <div class="flex items-center">
+                      <img
+                        class="responsive-element"
+                        src="assets/large_logo.jpeg"
+                        alt="logo"
+                      />
+                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div>
+                        <p class="card-small-text" style="color: #f0f0f0">
+                          WaCare受邀參加2023 APEC數位醫療應用公私協力工作坊
+                        </p>
+                        <p class="donate-lg-text" style="color: #f0f0f0"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide"
+                data-swiper-slide-index="0"
+                style="width: 1000px"
+              >
+                <div class="image-card">
+                  <div class="sc-drMfKT iYHiay overlay-element"></div>
+                  <div class="absolute-element">
+                    <div class="flex items-center">
+                      <img
+                        class="responsive-element"
+                        src="assets/large_logo.jpeg"
+                        alt="logo"
+                      />
+                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div>
+                        <p class="text-[12px] lg:text-[16px]">
+                          以科技縮短偏鄉與健康距離
+                        </p>
+                        <p class="text-[16px] lg:text-[24px] font-bold">
+                          張榮發慈善基金會
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide"
+                data-swiper-slide-index="1"
+                style="width: 1000px"
+              >
+                <div class="image-card">
+                  <div class="sc-drMfKT iYHiay overlay-element"></div>
+                  <div class="absolute-element">
+                    <div class="flex items-center">
+                      <img
+                        class="responsive-element"
+                        src="assets/large_logo.jpeg"
+                        alt="logo"
+                      />
+                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div>
+                        <p class="text-[12px] lg:text-[16px]">
+                          支持在地健康老化
+                        </p>
+                        <p class="text-[16px] lg:text-[24px] font-bold">
+                          藥華醫藥
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide swiper-slide-prev"
+                data-swiper-slide-index="2"
+                style="width: 1000px"
+              >
+                <div class="image-card">
+                  <div class="sc-drMfKT iYHiay overlay-element"></div>
+                  <div class="absolute-element">
+                    <div class="flex items-center">
+                      <img
+                        class="responsive-element"
+                        src="assets/large_logo.jpeg"
+                        alt="logo"
+                      />
+                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div>
+                        <p class="text-[12px] lg:text-[16px]">轉動共好未來</p>
+                        <p class="text-[16px] lg:text-[24px] font-bold">
+                          新光六十
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide swiper-slide-active"
+                data-swiper-slide-index="3"
+                style="width: 1000px"
+              >
+                <div class="image-card">
+                  <div class="sc-drMfKT iYHiay overlay-element"></div>
+                  <div class="absolute-element">
+                    <div class="flex items-center">
+                      <img
+                        class="responsive-element"
+                        src="assets/large_logo.jpeg"
+                        alt="logo"
+                      />
+                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div>
+                        <p class="text-[12px] lg:text-[16px]">
+                          不受距離限制的遠距創意
+                        </p>
+                        <p class="text-[16px] lg:text-[24px] font-bold">
+                          伸興工業
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide swiper-slide-next"
+                data-swiper-slide-index="4"
+                style="width: 1000px"
+              >
+                <div class="image-card">
+                  <div class="sc-drMfKT iYHiay overlay-element"></div>
+                  <div class="absolute-element">
+                    <div class="flex items-center">
+                      <img
+                        class="responsive-element"
+                        src="assets/large_logo.jpeg"
+                        alt="logo"
+                      />
+                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div>
+                        <p class="text-[12px] lg:text-[16px]">
+                          ⻝安教育打破地理藩籬 走進部落
+                        </p>
+                        <p class="text-[16px] lg:text-[24px] font-bold">
+                          泰山⻝品
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide"
+                data-swiper-slide-index="5"
+                style="width: 1000px"
+              >
+                <div class="image-card">
+                  <div class="sc-drMfKT iYHiay overlay-element"></div>
+                  <div class="absolute-element">
+                    <div class="flex items-center">
+                      <img
+                        class="responsive-element"
+                        src="assets/large_logo.jpeg"
+                        alt="logo"
+                      />
+                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div>
+                        <p class="text-[12px] lg:text-[16px]">
+                          WaCare受邀參加2023 APEC數位醫療應用公私協力工作坊
+                        </p>
+                        <p class="text-[16px] lg:text-[24px] font-bold"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide swiper-slide-duplicate"
+                data-swiper-slide-index="0"
+                style="width: 1000px"
+              >
+                <div class="image-card">
+                  <div class="sc-drMfKT iYHiay overlay-element"></div>
+                  <div class="absolute-element">
+                    <div class="flex items-center">
+                      <img
+                        class="responsive-element"
+                        src="assets/large_logo.jpeg"
+                        alt="logo"
+                      />
+                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div>
+                        <p class="text-[12px] lg:text-[16px]">
+                          以科技縮短偏鄉與健康距離
+                        </p>
+                        <p class="text-[16px] lg:text-[24px] font-bold">
+                          張榮發慈善基金會
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center mt-4">
+            <div
+              class="swiper-custom-pagination swiper-pagination-clickable swiper-pagination-bullets"
+            >
+              <span class="swiper-pagination-bullet"></span
+              ><span class="swiper-pagination-bullet"></span
+              ><span class="swiper-pagination-bullet"></span
+              ><span
+                class="swiper-pagination-bullet swiper-pagination-bullet-active"
+              ></span
+              ><span class="swiper-pagination-bullet"></span
+              ><span class="swiper-pagination-bullet"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider -->
+
       <!-- Donate Form -->
 
       <section class="donate-form-container">
@@ -457,6 +859,38 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        loop: true,
+        slidesPerView: 1,
+        centeredSlides: true,
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          // Add navigation configuration
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        spaceBetween: 0,
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 1,
+          },
+        },
+      });
+    </script>
   </body>
   <script>
     const barIcon = document.querySelector(".bar-icon");
