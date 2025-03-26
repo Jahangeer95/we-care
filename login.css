@@ -1,0 +1,400 @@
+.ibNRFU {
+  max-width: 992px;
+  display: grid;
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  gap: 0px 15px;
+  grid-template:
+    "header header header" 60px ". modal text" / minmax(16px, auto) minmax(
+      auto,
+      390px
+    )
+    minmax(16px, auto);
+}
+
+.lfFMVv {
+  display: flex;
+  min-height: 60px;
+  grid-area: header;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.cqkqfc {
+  display: flex;
+  overflow: hidden;
+  cursor: default;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0px;
+  margin-right: 8px;
+  margin-left: 16px;
+  width: 50px;
+  height: 50px;
+  border-radius: 0px;
+}
+
+.zxWrH {
+  color: rgb(255, 255, 255);
+  font-family: "Fredoka One";
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  margin-right: 8px;
+}
+
+.cnnogY {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  padding-top: 1px;
+}
+
+.FaUmn {
+  position: relative;
+  display: flex;
+  height: 630px;
+  min-height: 630px;
+  padding: 16px 24px 0px;
+  grid-area: modal;
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(240, 131, 39);
+  border-radius: 10px;
+  overflow-x: hidden;
+  margin-bottom: 16px;
+}
+
+.equmYs {
+  display: none;
+  min-height: 60px;
+  grid-area: header;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.gaQTZB {
+  color: rgb(137, 137, 137);
+  font-size: 1rem;
+  padding-top: 1px;
+}
+
+.hGzdnu {
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.jRTGYy {
+  width: 100%;
+}
+
+.fsNWrv {
+  position: relative;
+  width: 100%;
+  flex: 1 1 0%;
+}
+
+.kDOZaf {
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  padding-top: 1rem;
+}
+
+.eLTPnn {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgb(240, 131, 39);
+  min-height: 30px;
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+.bnZmpi {
+  box-sizing: border-box;
+  font-size: 1rem;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.laZTrP {
+  border-bottom: 1px solid;
+  color: rgb(230, 226, 226);
+  flex: 1 1 0%;
+}
+
+.jZRvnC {
+  color: rgb(137, 137, 137);
+  margin-left: 8px;
+  margin-right: 8px;
+  text-align: center;
+}
+
+.cqXQaU {
+  border-bottom: 1px solid;
+  color: rgb(239, 239, 239);
+  flex: 1 1 0%;
+}
+
+.jouFwp {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+
+.jLjqdd {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.buHLhG {
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+/* Main container */
+.react-tel-input {
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+}
+
+/* Input field */
+.react-tel-input .form-control {
+  width: 100%;
+  padding-left: 48px;
+  padding-right: 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  transition: border-color 0.2s;
+  border-radius: 20px;
+}
+
+/* Flag dropdown container */
+.react-tel-input .flag-dropdown {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 46px;
+  background-color: #f9f9f9;
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+}
+
+/* Selected flag area */
+.react-tel-input .selected-flag {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 0 0 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* Flag icon */
+.react-tel-input .flag {
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Dropdown arrow */
+.react-tel-input .arrow {
+  margin-left: 6px;
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 4px solid #555;
+  transition: transform 0.2s;
+}
+
+/* Focus states */
+.react-tel-input .form-control:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(240, 131, 39, 0.2);
+}
+
+/* Dropdown open state */
+.react-tel-input .flag-dropdown.open .arrow {
+  transform: rotate(180deg);
+}
+
+/* Placeholder text */
+.react-tel-input .form-control::placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+/* Error text container (red text) */
+.sc-hMqMXs.jEvlwb {
+  color: #ff0000; /* or your preferred red color */
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Login/Register button */
+.sc-ksYbfQ.hAxVYi {
+  width: 100%;
+
+  padding: 12px 0;
+
+  cursor: pointer;
+  transition: background-color 0.2s;
+  background: linear-gradient(
+    58deg,
+    rgb(232, 158, 95) 20%,
+    rgb(240, 131, 39) 100%
+  );
+  border: transparent;
+  border-radius: 45px;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  min-height: 44px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.dMvAOj {
+  color: inherit;
+  font-weight: bold;
+  text-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+  text-align: right;
+}
+
+.fcTHhr {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+.dDXDVW {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  min-width: 50%;
+  min-height: 50%;
+  margin: auto;
+  background: linear-gradient(rgba(15, 89, 190, 0.2), rgba(15, 89, 190, 0.1)) 0%
+      0% / cover,
+    url("assets/sign-in-background.jpg") center center no-repeat fixed;
+  background-size: cover;
+}
+
+.sc-ksYbfQ.hAxVYi:hover {
+  background-color: #e0e0e0;
+}
+
+/* Forgot password link */
+.sc-gtfDJT.dlNVUg {
+  color: orange; /* primary color */
+  font-size: 1rem;
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.hcypnZ {
+  color: rgb(137, 137, 137);
+  font-size: 1rem;
+}
+
+/* Container for "Other login methods" */
+.sc-brqgnP.sc-jDwBTQ.kDOZaf {
+  width: 100%;
+  text-align: center;
+}
+
+/* Other login methods link */
+.sc-gtfDJT.jcDYxd {
+  color: #666; /* textGray color */
+  font-size: 1rem;
+  text-decoration: underline;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bRCPjn {
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-size: 2.125rem;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  align-items: flex-end;
+  grid-area: text;
+  display: flex;
+}
+
+@media (min-width: 576px) {
+  .bNRFU {
+    column-gap: 15px;
+    grid-template-areas: "header header header header header header header header header header header header" ". modal modal modal modal modal text text text text text .";
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 60px auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .bNRFU {
+    column-gap: 15px;
+    grid-template-areas: "header header header header header header header header header header header header" ". modal modal modal modal modal text text text text text .";
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 60px auto;
+  }
+}
