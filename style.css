@@ -3759,6 +3759,10 @@ donate-.contact-container {
   }
 }
 
+.items-center {
+  align-items: center;
+}
+
 .donate-lg-text {
   font-size: 20px;
 }

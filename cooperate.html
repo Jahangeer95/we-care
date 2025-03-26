@@ -13,7 +13,7 @@
       /* slider */
       .swiper-container {
         position: relative;
-        padding: 50px 0;
+        padding: 20px 0;
         width: 100%;
         max-width: 800px;
         margin: 0 auto;
@@ -48,7 +48,7 @@
       @media (min-width: 1024px) {
         /* lg breakpoint */
         .absolute-element {
-          bottom: 24px;
+          bottom: 60px;
           left: 32px;
         }
       }
@@ -451,7 +451,14 @@
                         src="assets/large_logo.jpeg"
                         alt="logo"
                       />
-                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div
+                        style="
+                          width: 2px;
+                          height: 100%;
+                          margin: 0 8px;
+                          background-color: #f08327;
+                        "
+                      ></div>
                       <div>
                         <p class="card-small-text" style="color: #f0f0f0">
                           WaCare受邀參加2023 APEC數位醫療應用公私協力工作坊
@@ -476,7 +483,14 @@
                         src="assets/large_logo.jpeg"
                         alt="logo"
                       />
-                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div
+                        style="
+                          width: 2px;
+                          height: 100%;
+                          margin: 0 8px;
+                          background-color: #f08327;
+                        "
+                      ></div>
                       <div>
                         <p class="text-[12px] lg:text-[16px]">
                           以科技縮短偏鄉與健康距離
@@ -503,7 +517,14 @@
                         src="assets/large_logo.jpeg"
                         alt="logo"
                       />
-                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div
+                        style="
+                          width: 2px;
+                          height: 100%;
+                          margin: 0 8px;
+                          background-color: #f08327;
+                        "
+                      ></div>
                       <div>
                         <p class="text-[12px] lg:text-[16px]">
                           支持在地健康老化
@@ -530,7 +551,14 @@
                         src="assets/large_logo.jpeg"
                         alt="logo"
                       />
-                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div
+                        style="
+                          width: 2px;
+                          height: 100%;
+                          margin: 0 8px;
+                          background-color: #f08327;
+                        "
+                      ></div>
                       <div>
                         <p class="text-[12px] lg:text-[16px]">轉動共好未來</p>
                         <p class="text-[16px] lg:text-[24px] font-bold">
@@ -555,7 +583,14 @@
                         src="assets/large_logo.jpeg"
                         alt="logo"
                       />
-                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div
+                        style="
+                          width: 2px;
+                          height: 100%;
+                          margin: 0 8px;
+                          background-color: #f08327;
+                        "
+                      ></div>
                       <div>
                         <p class="text-[12px] lg:text-[16px]">
                           不受距離限制的遠距創意
@@ -582,7 +617,14 @@
                         src="assets/large_logo.jpeg"
                         alt="logo"
                       />
-                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div
+                        style="
+                          width: 2px;
+                          height: 100%;
+                          margin: 0 8px;
+                          background-color: #f08327;
+                        "
+                      ></div>
                       <div>
                         <p class="text-[12px] lg:text-[16px]">
                           ⻝安教育打破地理藩籬 走進部落
@@ -609,7 +651,14 @@
                         src="assets/large_logo.jpeg"
                         alt="logo"
                       />
-                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div
+                        style="
+                          width: 2px;
+                          height: 100%;
+                          margin: 0 8px;
+                          background-color: #f08327;
+                        "
+                      ></div>
                       <div>
                         <p class="text-[12px] lg:text-[16px]">
                           WaCare受邀參加2023 APEC數位醫療應用公私協力工作坊
@@ -634,7 +683,14 @@
                         src="assets/large_logo.jpeg"
                         alt="logo"
                       />
-                      <div class="w-[2px] h-full bg-[#f08327] mx-2"></div>
+                      <div
+                        style="
+                          width: 2px;
+                          height: 100%;
+                          margin: 0 8px;
+                          background-color: #f08327;
+                        "
+                      ></div>
                       <div>
                         <p class="text-[12px] lg:text-[16px]">
                           以科技縮短偏鄉與健康距離
@@ -650,18 +706,7 @@
             </div>
           </div>
           <div class="flex justify-center mt-4">
-            <div
-              class="swiper-custom-pagination swiper-pagination-clickable swiper-pagination-bullets"
-            >
-              <span class="swiper-pagination-bullet"></span
-              ><span class="swiper-pagination-bullet"></span
-              ><span class="swiper-pagination-bullet"></span
-              ><span
-                class="swiper-pagination-bullet swiper-pagination-bullet-active"
-              ></span
-              ><span class="swiper-pagination-bullet"></span
-              ><span class="swiper-pagination-bullet"></span>
-            </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </div>
@@ -875,11 +920,7 @@
           delay: 3000,
           disableOnInteraction: false,
         },
-        navigation: {
-          // Add navigation configuration
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
+
         spaceBetween: 0,
         breakpoints: {
           320: {
