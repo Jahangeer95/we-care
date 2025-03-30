@@ -100,113 +100,82 @@
     <main>
       <div class="course-main-page-container">
         <h3 class="responsive-heading">全部課程</h3>
-        <div class="w-full sticky top-[78px] bg-white z-10">
-          <ul class="flex mt-3 md:mt-6">
-            <li
-              class="grow font-medium text-[16px] md:text-[24px] text-center cursor-pointer text-textSystem"
-            >
+        <div class="sticky-header">
+          <ul class="flex-responsive-margin">
+            <li class="responsive-text-button active-button" data-tab="1">
               LIVE 課程
             </li>
-            <li
-              class="grow font-medium text-[16px] md:text-[24px] text-center cursor-pointer text-gray2"
-            >
-              影片課程
-            </li>
+            <li class="responsive-text-button" data-tab="2">影片課程</li>
           </ul>
-          <div class="flex w-full relative">
-            <div class="grow h-[2px] bg-gray3">
+          <div class="flex-container">
+            <div class="divider-line">
               <div
-                class="w-1/2 h-[3px] bg-textSystem absolute transition duration-300"
+                class="animated-underline animated-underline-active"
+                data-tab-line="1"
               ></div>
             </div>
-            <div class="grow h-[2px] bg-gray3"></div>
+            <div class="divider-line">
+              <div class="animated-underline" data-tab-line="2"></div>
+            </div>
           </div>
         </div>
-        <div
-          class="w-full md:mt-[22px] flex overflow-auto justify-center md:justify-start flex-wrap gap-y-5 gap-x-3 py-4 pl-1 pr-5 xl:px-1 xl:py-1"
-        >
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+        <div class="tab-content active-content" data-tab="1">
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/09927310-03d7-11f0-bb34-65929c0750cf"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
-                反應大挑戰，趣味腦力操(台語)
-              </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                WaCare社區健康．健康服務
-              </p>
-              <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 1 天
-                </div>
+            <div class="padded-container">
+              <p class="truncated-heading">反應大挑戰，趣味腦力操(台語)</p>
+              <p class="gray-text">WaCare社區健康．健康服務</p>
+              <div class="flex-between">
+                <div class="system-text">直播倒數 1 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
-                  <div class="text-xs text-gray1">(0)</div>
+                  <div class="text-xs gray-text">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/3/31
-              </div>
+              <div class="bold-gray-text">開課日期：2025/3/31</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-fOICqy hYHZFg">免費</div>
                 <div class="sc-hzDEsm itoGox">適合團體</div>
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/38342868966100/f0c18a00-edd4-11ef-9fc6-99c80ecade16"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
+            <div class="padded-container">
+              <p class="truncated-heading">
                 骨鬆也能運動？！正確選運動提升骨密度
               </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                全銀運動．健康服務
-              </p>
+              <p class="gray-text">全銀運動．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 1 天
-                </div>
+                <div class="system-text">直播倒數 1 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/3/31
-              </div>
+              <div class="bold-gray-text">開課日期：2025/3/31</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-jeCdPy hgcJir">3/31</div>
                 <div class="sc-fOICqy hYHZFg">免費</div>
@@ -216,132 +185,94 @@
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/c2ef25b0-03d7-11f0-b6c7-9d311cc9c436"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
-                跟著老師一起動一動(台語)
-              </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                WaCare社區健康．健康服務
-              </p>
+            <div class="padded-container">
+              <p class="truncated-heading">跟著老師一起動一動(台語)</p>
+              <p class="gray-text">WaCare社區健康．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 1 天
-                </div>
+                <div class="system-text">直播倒數 1 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/3/31
-              </div>
+              <div class="bold-gray-text">開課日期：2025/3/31</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-fOICqy hYHZFg">免費</div>
                 <div class="sc-fOICqy hYHZFg">剩餘11</div>
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/82f39740-0885-11f0-be32-5dcd3309251a"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
+            <div class="padded-container">
+              <p class="truncated-heading">
                 2025.04.01 合作社區限定-長者健康調查與諮詢(前測)-
                 嘉義阿里山里佳文健站 part 1
               </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                WaCare社區健康．健康服務
-              </p>
+              <p class="gray-text">WaCare社區健康．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 2 天
-                </div>
+                <div class="system-text">直播倒數 2 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/1
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/1</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-fOICqy hYHZFg">免費</div>
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/38342868966100/97887680-046b-11f0-85c0-9bba2c496f78"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
+            <div class="padded-container">
+              <p class="truncated-heading">
                 肩頸僵硬致耳鳴眼疲勞？專家帶你舒緩
               </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                全銀運動．健康服務
-              </p>
+              <p class="gray-text">全銀運動．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 2 天
-                </div>
+                <div class="system-text">直播倒數 2 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/1
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/1</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-jeCdPy hgcJir">4/1～4/2</div>
                 <div class="sc-fOICqy hYHZFg">免費</div>
@@ -351,44 +282,30 @@
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/816377575701200/fe333ec0-0488-11f0-9d4c-3f727cb52318"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
-                教孩子看懂遊戲規則，輕鬆融入同儕
-              </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                守護星兒愛無限．健康服務
-              </p>
+            <div class="padded-container">
+              <p class="truncated-heading">教孩子看懂遊戲規則，輕鬆融入同儕</p>
+              <p class="gray-text">守護星兒愛無限．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 2 天
-                </div>
+                <div class="system-text">直播倒數 2 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/1
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/1</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-jeCdPy hgcJir">4月</div>
                 <div class="sc-fOICqy hYHZFg">免費</div>
@@ -397,132 +314,94 @@
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/2decb7d0-088b-11f0-98ab-4383d5fbe027"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
+            <div class="padded-container">
+              <p class="truncated-heading">
                 2025.04.02 合作社區限定-長者健康調查與諮詢(後測)-
                 臺東關山電光文健站 part 1
               </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                WaCare社區健康．健康服務
-              </p>
+              <p class="gray-text">WaCare社區健康．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 3 天
-                </div>
+                <div class="system-text">直播倒數 3 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/2
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/2</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-fOICqy hYHZFg">免費</div>
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/0953eba0-0886-11f0-8087-39ee12cd582d"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
+            <div class="padded-container">
+              <p class="truncated-heading">
                 2025.04.02 合作社區限定-長者健康調查與諮詢(前測)-
                 嘉義阿里山里佳文健站 part 2
               </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                WaCare社區健康．健康服務
-              </p>
+              <p class="gray-text">WaCare社區健康．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 3 天
-                </div>
+                <div class="system-text">直播倒數 3 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/2
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/2</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-fOICqy hYHZFg">免費</div>
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/38342868966100/e2bee3c0-046e-11f0-9cbb-53e102bce96d"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
-                伸展有訣竅，遠離痠痛更靈活！
-              </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                全銀運動．健康服務
-              </p>
+            <div class="padded-container">
+              <p class="truncated-heading">伸展有訣竅，遠離痠痛更靈活！</p>
+              <p class="gray-text">全銀運動．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 3 天
-                </div>
+                <div class="system-text">直播倒數 3 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/2
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/2</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-jeCdPy hgcJir">4/1～4/2</div>
                 <div class="sc-fOICqy hYHZFg">免費</div>
@@ -532,44 +411,32 @@
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/dfec3580-054f-11f0-8b56-77db45a06a15"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
+            <div class="padded-container">
+              <p class="truncated-heading">
                 血壓飆升怎麼辦？照顧者必學急救術！【🫀血壓健康管理課程2️⃣】
               </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                照亮失智路．健康服務
-              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 3 天
-                </div>
+                <div class="system-text">直播倒數 3 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/2
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/2</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-jeCdPy hgcJir">🩸血壓健康管理</div>
                 <div class="sc-fOICqy hYHZFg">免費</div>
@@ -578,88 +445,64 @@
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/3d5c5910-0baf-11f0-b80d-b9a47e9b4fc1"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
+            <div class="padded-container">
+              <p class="truncated-heading">
                 2025.04.07 合作社區限定-長者健康調查與諮詢(後測)-
                 苗栗西湖千宏醫事C part 1
               </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                WaCare社區健康．健康服務
-              </p>
+              <p class="gray-text">WaCare社區健康．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 8 天
-                </div>
+                <div class="system-text">直播倒數 8 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/7
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/7</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-fOICqy hYHZFg">免費</div>
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/d9fc6ab0-094f-11f0-b954-4ddcaa2cd2c2"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
+            <div class="padded-container">
+              <p class="truncated-heading">
                 微笑超慢跑，關節不好也能輕鬆跑(台語)
               </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                WaCare社區健康．健康服務
-              </p>
+              <p class="gray-text">WaCare社區健康．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 8 天
-                </div>
+                <div class="system-text">直播倒數 8 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/7
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/7</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-fOICqy hYHZFg">免費</div>
                 <div class="sc-fOICqy hYHZFg">剩餘16</div>
@@ -667,44 +510,30 @@
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/38342868966100/9ed02f10-046f-11f0-af7a-b726d86fe7dd"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
-                免費健檢擴大！守護健康更心安
-              </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                全銀運動．健康服務
-              </p>
+            <div class="padded-container">
+              <p class="truncated-heading">免費健檢擴大！守護健康更心安</p>
+              <p class="gray-text">全銀運動．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 8 天
-                </div>
+                <div class="system-text">直播倒數 8 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/7
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/7</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-jeCdPy hgcJir">掌握運動關鍵➡️呼吸道保健🌲</div>
                 <div class="sc-fOICqy hYHZFg">免費</div>
@@ -714,44 +543,30 @@
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/38342868966100/4ea26840-0470-11f0-b031-4dae4f0454b2"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
-                輕鬆有氧增肺活量，養好肺更健康！
-              </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                全銀運動．健康服務
-              </p>
+            <div class="padded-container">
+              <p class="truncated-heading">輕鬆有氧增肺活量，養好肺更健康！</p>
+              <p class="gray-text">全銀運動．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 9 天
-                </div>
+                <div class="system-text">直播倒數 9 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/8
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/8</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-jeCdPy hgcJir">4/7～4/11</div>
                 <div class="sc-fOICqy hYHZFg">免費</div>
@@ -761,44 +576,30 @@
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/816377575701200/bd901620-048a-11f0-b593-d3fc2efde6e4"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
-                教孩子自我保護，遠離欺負與霸凌！
-              </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                守護星兒愛無限．健康服務
-              </p>
+            <div class="padded-container">
+              <p class="truncated-heading">教孩子自我保護，遠離欺負與霸凌！</p>
+              <p class="gray-text">守護星兒愛無限．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 9 天
-                </div>
+                <div class="system-text">直播倒數 9 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/8
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/8</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-jeCdPy hgcJir">4月</div>
                 <div class="sc-fOICqy hYHZFg">免費</div>
@@ -807,176 +608,128 @@
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/c184fb00-0bb1-11f0-9356-2362ed9b1ea2"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
+            <div class="padded-container">
+              <p class="truncated-heading">
                 2025.04.09 合作社區限定-長者健康調查與諮詢(後測)-
                 臺東巴布麓文健站 part 1
               </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                WaCare社區健康．健康服務
-              </p>
+              <p class="gray-text">WaCare社區健康．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 10 天
-                </div>
+                <div class="system-text">直播倒數 10 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/9
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/9</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-fOICqy hYHZFg">免費</div>
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/6a4f7ff0-0bb0-11f0-b287-655cac040fee"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
+            <div class="padded-container">
+              <p class="truncated-heading">
                 2025.04.09 合作社區限定-長者健康調查與諮詢(後測)-
                 苗栗西湖千宏醫事C part 2
               </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                WaCare社區健康．健康服務
-              </p>
+              <p class="gray-text">WaCare社區健康．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 10 天
-                </div>
+                <div class="system-text">直播倒數 10 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/9
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/9</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-fOICqy hYHZFg">免費</div>
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/212b87f0-088c-11f0-834c-1d349b9a318b"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
+            <div class="padded-container">
+              <p class="truncated-heading">
                 2025.04.09 合作社區限定-長者健康調查與諮詢(後測)-
                 臺東關山電光文健站 part 2
               </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                WaCare社區健康．健康服務
-              </p>
+              <p class="gray-text">WaCare社區健康．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 10 天
-                </div>
+                <div class="system-text">直播倒數 10 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/9
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/9</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-fOICqy hYHZFg">免費</div>
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/38342868966100/30740aa0-0488-11f0-bbe2-13a6ea3f71d3"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
+            <div class="padded-container">
+              <p class="truncated-heading">
                 遠離空污威脅，守護呼吸與大腦健康！
               </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                全銀運動．健康服務
-              </p>
+              <p class="gray-text">全銀運動．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 10 天
-                </div>
+                <div class="system-text">直播倒數 10 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/9
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/9</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-jeCdPy hgcJir">掌握運動關鍵➡️呼吸道保健🌲</div>
                 <div class="sc-fOICqy hYHZFg">免費</div>
@@ -986,48 +739,657 @@
               </div>
             </div>
           </div>
-          <div
-            class="w-[238px] md:w-[327px] shadow-courseCard rounded xl:mb-2 cursor-pointer hover:shadow-lg hover:relative hover:top-[-3px]"
-          >
-            <div
-              class="w-[238px] md:w-[327px] h-[134px] md:h-[184px] rounded-courseCard overflow-hidden"
-            >
+          <div class="course-card">
+            <div class="card-img">
               <img
                 class="w-full h-full object-cover"
                 src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/44adf450-0950-11f0-94f8-5b3d5dfc5b5f"
                 alt="course"
               />
             </div>
-            <div class="w-full px-[8px] md:px-[11px] py-[16px] md:py-[22px]">
-              <p
-                class="truncate text-center font-bold text-[16px] md:text-[22px]"
-              >
-                聽得清、看得明，生活更安心(台語)
-              </p>
-              <p class="text-gray1 text-xs md:text-base mt-[5px]">
-                WaCare社區健康．健康服務
-              </p>
+            <div class="padded-container">
+              <p class="truncated-heading">聽得清、看得明，生活更安心(台語)</p>
+              <p class="gray-text">WaCare社區健康．健康服務</p>
               <div class="flex justify-between mt-[5px]">
-                <div class="text-[12px] md:text-[19px] text-textSystem">
-                  直播倒數 10 天
-                </div>
+                <div class="system-text">直播倒數 10 天</div>
                 <div class="flex items-center">
                   <img
-                    class="w-[18px] md:w-[24px]"
-                    src="/static/images/icons/star.svg"
+                    class="responsive-icon"
+                    src="assets/star.svg"
                     alt="star"
                   />
                   <div class="text-xs mx-2">0</div>
                   <div class="text-xs text-gray1">(0)</div>
                 </div>
               </div>
-              <div class="text-[12px] md:text-[19px] font-bold text-[#7D858D]">
-                開課日期：2025/4/9
-              </div>
+              <div class="bold-gray-text">開課日期：2025/4/9</div>
               <div class="flex gap-2 flex-wrap mt-2">
                 <div class="sc-fOICqy hYHZFg">免費</div>
                 <div class="sc-fOICqy hYHZFg">剩餘12</div>
                 <div class="sc-hzDEsm itoGox">適合團體</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content" data-tab="2">
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/21cdf530-085a-11f0-afd9-1791693482c5"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                安排長者來一趟「懷舊之旅」，增加人際互動連結
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">0</div>
+                  <div class="text-xs text-gray1">(0)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">4月☕️安排專屬時光，充好電</div>
+                <div class="sc-fOICqy hYHZFg">免費</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/816377575701200/c5139a10-03dc-11f0-b116-097aae99005b"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">用溝通APP改善低口語，增加親子互動</p>
+              <p class="gray-text">守護星兒愛無限．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(22)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">⭐️口語表達/溝通</div>
+                <div class="sc-fOICqy hYHZFg">免費</div>
+                <div class="sc-fOICqy hYHZFg">198人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/816377575701200/72651140-03dc-11f0-9b58-4397802271bb"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                左旋肌肽、茶胺酸吃對了嗎?教你正確補充才有效！
+              </p>
+              <p class="gray-text">守護星兒愛無限．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(28)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">⭐️營養品補充</div>
+                <div class="sc-fOICqy hYHZFg">免費</div>
+                <div class="sc-fOICqy hYHZFg">335人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/816377575701200/b69032b0-03db-11f0-be5e-1379d2f10de7"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                教你看懂心理衡鑑報告，孩子進步有方向
+              </p>
+              <p class="gray-text">守護星兒愛無限．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(18)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">⭐️治療方法</div>
+                <div class="sc-fOICqy hYHZFg">免費</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/8d1827b0-008b-11f0-a402-cbd6a593c719"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                【即日起 免費放映 ~
+                114/12/31】心血管不健康，當心失智來敲門！【🫀血壓健康管理課程1️⃣】
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(34)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">🩸血壓健康管理</div>
+                <div class="sc-fOICqy hYHZFg">免費</div>
+                <div class="sc-fOICqy hYHZFg">271人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/14349721209120/056a92fb-23c6-4ef3-a6bd-0c2f1db8fb80"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                免費積分｜2積分｜失智精神行為好困擾？應對·減緩有撇步
+              </p>
+              <p class="gray-text">Wa長照積分專業課程．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(480)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">免費積分</div>
+                <div class="sc-fOICqy hYHZFg">免費</div>
+                <div class="sc-fOICqy hYHZFg">2333人學習</div>
+                <div class="sc-hzDEsm itoGox">適合特定專業</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/fb9c9df0-d79c-11ef-a2d6-8d3cace44a5f"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                對長輩生氣好自責，帶你遠離·平復愧疚
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(31)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">心理健康</div>
+                <div class="sc-fOICqy hYHZFg">23人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/c609f9e0-d79b-11ef-ab13-79d34cd6caab"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                失智鎮定「藥」觀察，長輩好眠白日不嗜睡
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(31)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">用藥安全</div>
+                <div class="sc-fOICqy hYHZFg">13人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/43657500-d79b-11ef-aa5e-3b2697914a53"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                天寒易中風變失智？解析預防關鍵不擔憂
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(42)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">認識失智</div>
+                <div class="sc-fOICqy hYHZFg">158人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/de429100-d798-11ef-ac34-a93e363aab6d"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                高蛋白不傷腎怎麼選？提升體力這樣做！
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(36)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">營養保健</div>
+                <div class="sc-fOICqy hYHZFg">27人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/208db9c0-d796-11ef-8501-d3c978f4c2df"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                不讓情緒綁架長輩！解決失智攻擊行為
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">4.9</div>
+                  <div class="text-xs text-gray1">(39)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">精神行為</div>
+                <div class="sc-fOICqy hYHZFg">55人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/e2126220-d6f2-11ef-8bbb-31540e1ec76e"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                失智看牙好繁瑣？認識到宅牙醫無煩惱
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(30)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">資源申請</div>
+                <div class="sc-fOICqy hYHZFg">8人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/a5987930-d6e6-11ef-b391-ad3ce4fa4947"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                五度五關五燈獎！帶長輩音樂闖關防退化！
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(28)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">延緩退化</div>
+                <div class="sc-fOICqy hYHZFg">5人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/2ab93e20-d6e6-11ef-bfc4-a7eb7007e8a5"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                睡不好是呼吸出了錯？呼吸瑜珈來調節
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(79)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">照顧舒壓</div>
+                <div class="sc-fOICqy hYHZFg">13人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/02d11880-d6e4-11ef-bfff-d5ba17f813c6"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">健忘 ≠ 失智！掌握差異，及早因應</p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(49)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">認識失智</div>
+                <div class="sc-fOICqy hYHZFg">115人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/a9f09010-d6e3-11ef-a5cd-df379f65ddb1"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                怕泌尿道感染住院？吃對飲食保健才有效
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(42)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">營養保健</div>
+                <div class="sc-fOICqy hYHZFg">5人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/071b3030-d6e2-11ef-a9c0-8dcfc1c21080"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                長輩易跌好擔憂，預防·保護·處理靠這招
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(41)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">照顧技巧</div>
+                <div class="sc-fOICqy hYHZFg">3人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/808573f0-d6e1-11ef-b928-c30d009a6c2e"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                中醫穴位按摩&amp;刮痧，減緩長輩記憶退化
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(64)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">延緩退化</div>
+                <div class="sc-fOICqy hYHZFg">12人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/1ad6dfd0-d6e1-11ef-a9e8-7533dc2080f9"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                柑仔店零食懷舊法，喚醒長輩大腦記憶
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(35)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">延緩退化</div>
+                <div class="sc-fOICqy hYHZFg">4人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
+              </div>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="card-img">
+              <img
+                class="w-full h-full object-cover"
+                src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/16796706096230/876b0190-d6e0-11ef-a7cf-b7334c98bfcb"
+                alt="course"
+              />
+            </div>
+            <div class="padded-container">
+              <p class="truncated-heading">
+                長輩洗澡總說NO？對症引導讓他安心洗
+              </p>
+              <p class="gray-text">照亮失智路．健康服務</p>
+              <div class="flex justify-between mt-[5px]">
+                <div class="flex items-center">
+                  <img
+                    class="responsive-icon"
+                    src="assets/star.svg"
+                    alt="star"
+                  />
+                  <div class="text-xs mx-2">5.0</div>
+                  <div class="text-xs text-gray1">(39)</div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-wrap mt-2">
+                <div class="sc-jeCdPy hgcJir">衛生清潔</div>
+                <div class="sc-fOICqy hYHZFg">4人學習</div>
+                <div class="sc-hzDEsm itoGox">適合個人</div>
               </div>
             </div>
           </div>
@@ -1121,6 +1483,40 @@
         </div>
       </div>
     </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const tabs = document.querySelectorAll(".responsive-text-button");
+        const animateUnderline = document.querySelectorAll(
+          ".animated-underline"
+        );
+        const tabContent = document.querySelectorAll(".tab-content");
+
+        tabs.forEach((tab) => {
+          tab.addEventListener("click", function () {
+            // Remove active class from all tabs
+            tabs.forEach((t) => t.classList.remove("active-button"));
+            animateUnderline.forEach((a) =>
+              a.classList.remove("animated-underline-active")
+            );
+
+            tabContent.forEach((tc) => tc.classList.remove("active-content"));
+
+            // Add active class to clicked tab
+            this.classList.add("active-button");
+
+            // Show corresponding content
+            const tabId = this.getAttribute("data-tab");
+            document
+              .querySelector(`.animated-underline[data-tab-line="${tabId}"]`)
+              .classList.add(`animated-underline-active`);
+
+            document
+              .querySelector(`.tab-content[data-tab="${tabId}"]`)
+              .classList.add(`active-content`);
+          });
+        });
+      });
+    </script>
   </body>
   <script>
     const barIcon = document.querySelector(".bar-icon");
