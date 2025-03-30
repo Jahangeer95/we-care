@@ -653,6 +653,8 @@ main {
   font-size: 0.875rem;
   margin-right: 1rem;
   cursor: pointer;
+  text-decoration: none;
+  color: #000;
 }
 
 .courses-container {
