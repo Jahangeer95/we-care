@@ -2896,8 +2896,8 @@ donate-.contact-container {
     width: calc(50% - 30px);
   }
   .health-tab {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 24px !important;
+    font-weight: bold !important;
   }
 
   .want-to-say {
