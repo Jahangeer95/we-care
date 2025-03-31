@@ -1,0 +1,3428 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="live-course-sub-page.css" />
+    <title>Courses Sub Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="nav-container">
+          <img
+            src="assets/large_logo.jpeg"
+            alt="WaCareLogo"
+            class="large-logo"
+          /><img
+            src="./assets/mobile_logo.svg"
+            alt="WaCareLogo"
+            class="mobile-logo"
+          />
+          <div class="search-container">
+            <div class="flex-container">
+              <img
+                class="search-icon"
+                src="./assets/search-icon.svg"
+                alt="search"
+              /><input
+                placeholder="搜索內容"
+                type="text"
+                maxlength="12"
+                class="sc-iSDuPN search-input"
+              /><img class="close-icon" src="assets/close.svg" alt="close" />
+            </div>
+          </div>
+          <div class="links-container">
+            <ul class="links-list">
+              <li class="sc-gmeYpB dNtCLZ"><a href="index.html">首頁</a></li>
+              <li class="sc-gmeYpB dNtCLZ">
+                <a href="health-form.html">討論區</a>
+              </li>
+              <li class="sc-gmeYpB dNtCLZ"><a href="activity.html">活動</a></li>
+              <li class="sc-gmeYpB dNtCLZ"><a href="blog.html">資訊專欄</a></li>
+              <li class="sc-gmeYpB dNtCLZ">
+                <a href="cooperate.html">企業合作</a>
+              </li>
+              <li class="sc-gmeYpB dNtCLZ"><a href="experts.html">專家</a></li>
+              <li class="sc-gmeYpB dNtCLZ">
+                <a href="common-problems.html">常見問題</a>
+              </li>
+              <li class="sc-gmeYpB dNtCLZ">
+                <a href="inviter.html">推薦送好禮</a>
+              </li>
+            </ul>
+            <div class="login-btn-container">
+              <div class="bar-icon">
+                <div class="sc-etwtAo eSdHWB">
+                  <div class="sc-jXQZqI dNVzxQ"></div>
+                  <div class="sc-iGPElx hCBAoO"></div>
+                  <div class="sc-kasBVs iSgaGp"></div>
+                </div>
+              </div>
+              <a
+                href="login.html"
+                target="_blank"
+                class="sc-RcBXQ bTTUPg login-button"
+                >註冊/登入</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sc-clNaTc csgLhU">
+        <span
+          style="border-bottom: 1.5px solid rgb(255, 255, 255); cursor: pointer"
+          >註冊/登入</span
+        >會員後，即可觀看完整影片，快來線上一起學習知識吧!
+      </div>
+      <ul class="sc-fZwumE ftttyr" id="target-element">
+        <li class="sc-gmeYpB fTeCVd"><a href="index.html">首頁</a></li>
+        <li class="sc-gmeYpB fTeCVd">
+          <a href="health-form.html">討論區</a>
+        </li>
+        <li class="sc-gmeYpB fTeCVd"><a href="activity.html">活動</a></li>
+        <li class="sc-gmeYpB fTeCVd"><a href="blog.html">資訊專欄</a></li>
+        <li class="sc-gmeYpB fTeCVd">
+          <a href="cooperate.html">企業合作</a>
+        </li>
+        <li class="sc-gmeYpB fTeCVd"><a href="experts.html">專家</a></li>
+        <li class="sc-gmeYpB fTeCVd">
+          <a href="common-problems.html">常見問題</a>
+        </li>
+        <li class="sc-gmeYpB fTeCVd">
+          <a href="inviter.html">推薦送好禮</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <div color="primary" class="sc-kjoXOD sc-cHGsZl eeXXUE">
+        <div class="w-full h-[80px] z-30 drop-shadow-lg bg-white fixed">
+          <div class="lg:px-8 flex justify-between w-full h-[80px]">
+            <div class="px-4 lg:px-8 flex justify-between items-center w-full">
+              <img
+                src="/static/images/logo/WaCareLogo.svg"
+                alt="WaCareLogo"
+                class="hidden md:flex cursor-pointer"
+              /><img
+                src="/static/images/logo/WaCareLogoMobile.svg"
+                alt="WaCareLogo"
+                class="md:hidden cursor-pointer"
+              />
+              <div
+                class="relative w-60 lg:w-80 h-12 outline outline-offset-0 outline-gray-300 rounded hidden"
+                style="margin-left: 20px"
+              >
+                <div class="px-4 py-3 flex justify-between items-center">
+                  <img
+                    class="cursor-pointer"
+                    src="/static/images/icons/search-icon.svg"
+                    alt="search"
+                  /><input
+                    placeholder="搜索內容"
+                    type="text"
+                    maxlength="12"
+                    class="sc-hUfwpO ccThuA"
+                  /><img
+                    class="hidden md:block cursor-pointer"
+                    src="/static/images/icons/close.svg"
+                    alt="close"
+                  />
+                </div>
+              </div>
+              <div class="flex">
+                <ul class="hidden xxl:flex items-center justify-center">
+                  <li class="sc-gbOuXE cHhrI">首頁</li>
+                  <li class="sc-gbOuXE cHhrI">討論區</li>
+                  <li class="sc-gbOuXE cHhrI">活動</li>
+                  <li class="sc-gbOuXE cHhrI">資訊專欄</li>
+                  <li class="sc-gbOuXE cHhrI">企業合作</li>
+                  <li class="sc-gbOuXE cHhrI">專家</li>
+                  <li class="sc-gbOuXE cHhrI">常見問題</li>
+                  <li class="sc-gbOuXE cHhrI">推薦送好禮</li>
+                </ul>
+                <div class="flex">
+                  <div class="xxl:hidden flex items-center mx-[15px]">
+                    <div class="sc-fEUNkw eubckd">
+                      <div class="sc-dREXXX iOjnnk"></div>
+                      <div class="sc-kcbnda bnZZzX"></div>
+                      <div class="sc-hcmgZB dpgwrM"></div>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-gkFcWv dkmwQj ml-2 xxl:ml-4 text-[12px] md:text-[14px]"
+                  >
+                    註冊/登入
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sc-dRaagA fBfqSw">
+            <span
+              style="
+                border-bottom: 1.5px solid rgb(255, 255, 255);
+                cursor: pointer;
+              "
+              >註冊/登入</span
+            >會員後，即可觀看完整影片，快來線上一起學習知識吧!
+          </div>
+          <ul class="sc-imABML bArAwp">
+            <li class="sc-dRFtgE leHzKs">首頁</li>
+            <li class="sc-dRFtgE leHzKs">討論區</li>
+            <li class="sc-dRFtgE leHzKs">活動</li>
+            <li class="sc-dRFtgE leHzKs">資訊專欄</li>
+            <li class="sc-dRFtgE leHzKs">企業合作</li>
+            <li class="sc-dRFtgE leHzKs">專家</li>
+            <li class="sc-dRFtgE leHzKs">常見問題</li>
+            <li class="sc-dRFtgE leHzKs">推薦送好禮</li>
+          </ul>
+        </div>
+        <div class="sc-cqCuEk dXUuHE">
+          <div
+            height="100vh"
+            width="100vw"
+            class="sc-bdVaJa sc-htpNat sc-kAzzGY eprSYT"
+            style="display: -webkit-box"
+          >
+            <div class="sc-dliRfk mQgnx">
+              <div height="auto" class="sc-bdVaJa sc-htpNat sc-kAzzGY dGetVp">
+                <div
+                  class="sc-bdVaJa sc-bwzfXH sc-gqjmRU fMEnll"
+                  style="
+                    font-size: 1rem;
+                    border-bottom: 1px solid rgb(239, 239, 239);
+                    color: rgb(240, 131, 39);
+                  "
+                >
+                  登入領券
+                  <div
+                    width="auto"
+                    height="65%"
+                    class="sc-bdVaJa sc-bwzfXH sc-gzVnrw gkLHZv"
+                  >
+                    <img
+                      src="/static/images/icons/ic_fourm_cancelphoto.png"
+                      style="height: 100%; cursor: pointer"
+                    />
+                  </div>
+                </div>
+                <div
+                  height="50%"
+                  class="sc-bdVaJa sc-bwzfXH sc-bxivhb ikHpbW"
+                  style="
+                    font-size: 1rem;
+                    color: rgb(137, 137, 137);
+                    margin: 10px 0px;
+                  "
+                >
+                  <div style="white-space: break-spaces">
+                    登入/註冊會員後，即可領取優惠券
+                  </div>
+                </div>
+                <div
+                  height="30%"
+                  class="sc-bdVaJa sc-bwzfXH sc-iwsKbI fAJzgm"
+                  style="margin: 10px 0px"
+                >
+                  <div
+                    color="secondary"
+                    height="44px"
+                    class="sc-dVhcbM bBqIIy"
+                    style="cursor: pointer; padding: 0px 10px"
+                  >
+                    登入/註冊
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="h-[80px]"></div>
+        <div width="100%" font-size="[object Object]" class="sc-gmeYpB gaKDlB">
+          <div class="sc-eAKXzc cgKYOY">
+            <div width="auto" height="auto" class="sc-esjQYD hdDHuy">
+              <img
+                src="https://storage.googleapis.com/wacare-qiankun.appspot.com/express-7f397fef-a84e-4c2b-932d-869982bb2c86/2a305366-b383-4b42-9245-1b0e60542472?GoogleAccessId=firebase-adminsdk-c06a5@wacare-qiankun.iam.gserviceaccount.com&amp;Expires=1746018897&amp;Signature=RtE13Og940B1oQEm1Ayk13WVrMILUdUvhmcziZMP4m1VWfSiiEwdyV4I26r8sS9OoUq99Hw%2F1EUo0ok54Zup6kLy482FWHC8zog9DI2k2ekSPH4vAv7JXM2kxxJUF7pvvWJOHk9cPe4Z47uQzbaDLtD1q3IU7tuzAWxP7L9miyR5mqgad55PRl6eT8eFB7rbGR5PFaHvjghMZOXaLZZilBHWFBJ0JrZSi6YOSxpElrX%2FLRIKdpP8SmaRarN2f71li%2BNmOKc6miwBIPNKq6nb2QAI1HFtN31OXdM0Tt1IbEyFahrJoa5nmlllNCRYa4KuFvChydt%2BGWXFt%2BhZBV1FEA%3D%3D"
+                alt="avatar"
+                style="height: 100%; width: 100%; object-fit: cover"
+              />
+            </div>
+            <div class="sc-bfYoXt btPqVA">
+              <div font-size="1.5rem" color="primary" class="sc-ktHwxA iJmAHo">
+                WaCare社區健康
+              </div>
+              <div color="textGray" class="sc-cIShpX kGQkJF">關於我</div>
+            </div>
+          </div>
+        </div>
+        <div width="100%" font-size="[object Object]" class="sc-gmeYpB gaKDlB">
+          <div class="sc-hORach cZqgbX">
+            <div color="secondary" class="sc-cmthru nurAl">
+              <div class="sc-cMhqgX ldvOpt">
+                <img
+                  alt="tumbnail-img"
+                  src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/82f39740-0885-11f0-be32-5dcd3309251a"
+                  class="sc-iuJeZd jeBmgq"
+                />
+              </div>
+            </div>
+            <div class="sc-dfVpRl gfAqeF"></div>
+            <div class="sc-dqBHgY eXoyvb">
+              <div
+                font-size="4"
+                font-weight="bold"
+                color="textBlack"
+                class="sc-jwKygS iFobsW"
+              >
+                2025.04.01 合作社區限定-長者健康調查與諮詢(前測)-
+                嘉義阿里山里佳文健站 part 1
+              </div>
+              <img
+                src="/static/images/icons/copy.svg"
+                style="margin-left: 10px; cursor: pointer"
+              /><button
+                style="
+                  background: none;
+                  border: none;
+                  outline: none;
+                  color: rgb(137, 137, 137);
+                  padding: 0px;
+                  cursor: pointer;
+                "
+              >
+                複製連結
+              </button>
+              <div
+                style="
+                  position: relative;
+                  background: none;
+                  width: 10px;
+                  height: 10px;
+                "
+              >
+                <div
+                  style="
+                    position: absolute;
+                    display: flex;
+                    left: 0px;
+                    top: 0px;
+                    background: none;
+                    width: 10px;
+                    height: 10px;
+                  "
+                >
+                  <textarea
+                    id="url"
+                    readonly=""
+                    style="
+                      background: none;
+                      border: none;
+                      outline: none;
+                      width: 1px;
+                      height: 1px;
+                      resize: none;
+                    "
+                  ></textarea>
+                </div>
+                <div
+                  style="
+                    position: absolute;
+                    background: white;
+                    width: 10px;
+                    height: 10px;
+                  "
+                ></div>
+              </div>
+            </div>
+            <div
+              class="sc-bMVAic ikSze"
+              style="justify-content: space-between; align-items: center"
+            >
+              <div class="sc-bMVAic ikSze" style="height: fit-content">
+                <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+              </div>
+              <div style="width: 100px"></div>
+              <div
+                class="sc-bMVAic ikSze"
+                style="color: rgb(120, 120, 120); margin: 10px 0px"
+              >
+                <div style="margin: 0px 4px">
+                  <img
+                    src="/static/images/icons/star-gary.svg"
+                    style="height: 19px; width: 18px"
+                  /><img
+                    src="/static/images/icons/star-gary.svg"
+                    style="height: 19px; width: 18px"
+                  /><img
+                    src="/static/images/icons/star-gary.svg"
+                    style="height: 19px; width: 18px"
+                  /><img
+                    src="/static/images/icons/star-gary.svg"
+                    style="height: 19px; width: 18px"
+                  /><img
+                    src="/static/images/icons/star-gary.svg"
+                    style="height: 19px; width: 18px"
+                  />
+                </div>
+                (0)
+              </div>
+            </div>
+            <div class="sc-bAeIUo bPXGbk">
+              <h1 class="sc-iujRgT fSZRpG">還差最後一步 立即付款</h1>
+              <div class="sc-GMQeP mKiUL">
+                <p>[匯款資訊]</p>
+                <p>匯款金額 : TWD</p>
+                <p>匯款期限 : 到期</p>
+                <p>銀行代號 :</p>
+                <p>帳號 :</p>
+                <br />
+                <p>若課程即將開始或需要協助</p>
+                <p>請加WaCare官方LINE聯繫客服:</p>
+                <a href="https://lin.ee/rAYEDS">https://lin.ee/rAYEDS</a>
+              </div>
+            </div>
+            <p class="text-[#898989] inline">
+              報名人數<span class="text-[#f08327] ml-2">1/1</span>
+            </p>
+            <div class="p-4 bg-[#DDF8DD] rounded flex mt-4 cursor-pointer">
+              <img
+                class="self-start w-[26px] h-[26px]"
+                src="/static/images/icons/treeflower.svg"
+                alt="treeflower"
+              />
+              <div class="font-bold text-[#22AC38] ml-2">
+                WaCare 啟動遠距課程碳足跡計算： 相較實體課預計減少 1.6
+                公斤溫室氣體排放量，相當於為地球省下 291 根塑膠吸管。
+              </div>
+            </div>
+            <div id="course-main-page-tabe-area" class="sc-gPWkxV jCTMRN">
+              <div class="sc-jVODtj bCywRS">內容</div>
+              <div class="sc-jVODtj cxdEYe">評價</div>
+            </div>
+            <div style="display: block">
+              <div color="textGray" class="sc-jwKygS cojWQV">
+                <div
+                  font-size="4"
+                  font-weight="bold"
+                  color="textBlack"
+                  class="sc-jwKygS jJVziJ"
+                >
+                  開課時間
+                </div>
+                <div font-size="2" color="textBlack" class="sc-bYSBpT cLGlPH">
+                  2025/4/1 (二) 7:00
+                </div>
+              </div>
+              <div style="display: none; color: black">
+                <div
+                  font-size="4"
+                  font-weight="bold"
+                  color="textBlack"
+                  class="sc-jwKygS jrgEOl"
+                >
+                  課後測驗
+                </div>
+                完成觀看課程即可開始測驗<br />
+                <div
+                  type="submit"
+                  width="30%"
+                  color="secondary"
+                  height="44px"
+                  class="sc-dVhcbM clWjjK"
+                  style="cursor: pointer; padding: 0px 10px"
+                >
+                  開始測驗
+                </div>
+              </div>
+              <div font-size="[object Object]" class="sc-hrWEMg jRLkeO">
+                <div class="sc-hwwEjo dwOXHp">
+                  <div color="textBlack" class="sc-kfGgVZ gjxwSQ"></div>
+                </div>
+              </div>
+              <div
+                font-size="4"
+                font-weight="bold"
+                color="textBlack"
+                class="sc-jwKygS jrgEOl"
+              >
+                課程簡介
+              </div>
+              <div font-size="2" color="textBlack" class="sc-bYSBpT dQTajH">
+                2025.04.01 10:00-11:00 合作社區限定-長者健康調查與諮詢(前測)-
+                嘉義阿里山里佳文健站 part 1
+              </div>
+            </div>
+            <div class="sc-cpmLhU kYgDfZ">
+              <div class="sc-dymIpo gmAyFV">
+                <div></div>
+                <div>
+                  <img src="/static/images/icons/star-gary.svg" /><img
+                    src="/static/images/icons/star-gary.svg"
+                  /><img src="/static/images/icons/star-gary.svg" /><img
+                    src="/static/images/icons/star-gary.svg"
+                  /><img src="/static/images/icons/star-gary.svg" />
+                </div>
+                <div>本課暫無評價</div>
+              </div>
+              <div class="sc-bnXvFD flvbTp">
+                <div class="sc-gFaPwZ iXGJZ">
+                  <div class="sc-fhYwyz laOrsF">所有課程評價</div>
+                  <div class="sc-jzgbtB dYpjkC">
+                    <div id="writeIcon"></div>
+                    我要評價
+                  </div>
+                </div>
+                <div class="sc-rBLzX dLzMLW">
+                  <div class="sc-TFwJa kHFTVx">成為第一個發文的人吧！</div>
+                </div>
+              </div>
+              <div font-size="[object Object]" class="sc-bHwgHz eMtbla">
+                查看所有評論 (0)
+              </div>
+            </div>
+            <div class="sc-exAgwC imebsT">
+              <div
+                width="[object Object]"
+                height="[object Object]"
+                class="sc-cQFLBn iWHMbF"
+              >
+                <div class="sc-gojNiO gwbQKp">
+                  <img
+                    src="/static/images/icons/close.svg"
+                    class="sc-daURTG gLdgcm"
+                  />
+                </div>
+                <div font-size="[object Object]" class="sc-bXGyLb eqqYSR">
+                  對這堂課的滿意度
+                </div>
+                <div class="sc-lkqHmb gOzrWr">
+                  <img
+                    src="/static/images/icons/star.svg"
+                    class="sc-eLExRp cOdbHQ"
+                  /><img
+                    src="/static/images/icons/star.svg"
+                    class="sc-eLExRp cOdbHQ"
+                  /><img
+                    src="/static/images/icons/star.svg"
+                    class="sc-eLExRp cOdbHQ"
+                  /><img
+                    src="/static/images/icons/star.svg"
+                    class="sc-eLExRp cOdbHQ"
+                  /><img
+                    src="/static/images/icons/star.svg"
+                    class="sc-eLExRp cOdbHQ"
+                  />
+                </div>
+                <div class="sc-cbkKFq cWGcuZ">
+                  <textarea
+                    placeholder="留下評論和回饋"
+                    font-size="[object Object]"
+                    class="sc-krvtoX bLseXn"
+                  ></textarea>
+                  <div class="sc-fYiAbW bOZkOL">0/300</div>
+                </div>
+                <div font-size="[object Object]" class="sc-fOKMvo jojmgz">
+                  送出
+                </div>
+                <div font-size="[object Object]" class="sc-dUjcNx jLnymZ">
+                  取消
+                </div>
+              </div>
+            </div>
+            <div class="sc-cqCuEk dXUuHE">
+              <div
+                height="100vh"
+                width="100vw"
+                class="sc-bdVaJa sc-bwzfXH sc-gzVnrw lmLKCz"
+              >
+                <div
+                  class="sc-dliRfk mQgnx"
+                  style="width: 400px; padding: 8px 10px; margin: 20px"
+                >
+                  <div
+                    width="100%"
+                    height="100%"
+                    class="sc-bdVaJa sc-htpNat sc-kAzzGY fEZAoY"
+                  >
+                    <div
+                      width="100%"
+                      height="10%"
+                      class="sc-bdVaJa sc-bwzfXH sc-gzVnrw izwKwO"
+                      style="
+                        font-size: 1rem;
+                        border-bottom: 1px solid rgb(239, 239, 239);
+                        color: rgb(240, 131, 39);
+                        padding: 10px 0px;
+                      "
+                    ></div>
+                    <div
+                      width="100%"
+                      height="20%"
+                      class="sc-bdVaJa sc-bwzfXH sc-bZQynM kmbRPv"
+                      style="
+                        font-size: 1rem;
+                        color: rgb(137, 137, 137);
+                        margin: 10px 0px;
+                      "
+                    ></div>
+                    <div
+                      width="100%"
+                      height="10%"
+                      class="sc-bdVaJa sc-bwzfXH sc-gzVnrw izwKwO"
+                      style="margin: 10px 0px"
+                    >
+                      <div
+                        color="secondary"
+                        height="44px"
+                        class="sc-dVhcbM cNgZVl"
+                      >
+                        確認
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            font-size="4"
+            font-weight="bold"
+            color="textBlack"
+            class="sc-jwKygS jrgEOl"
+          >
+            更多LIVE教室
+          </div>
+          <div
+            width="100%"
+            height="fit-content"
+            class="sc-bdVaJa sc-bwzfXH sc-bxivhb cneDjE"
+            style="overflow: scroll; margin-bottom: 10px"
+          >
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/cd647090-0ab7-11f0-ac14-5dc092fd2a75"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025/04/01
+                      合作社區限定-長者健康調查(後測)-花蓮瑞穗富民文健站 part 4
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/1 (二)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">限量1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/86132560-0ab7-11f0-b08b-177680f539c7"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025/04/01 合作社區限定-長者健康調查與諮詢(前測)-
+                      屏東三地門三地文健站part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/1 (二)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/82f39740-0885-11f0-be32-5dcd3309251a"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.01 合作社區限定-長者健康調查與諮詢(前測)-
+                      嘉義阿里山里佳文健站 part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/1 (二)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/42fce610-fe25-11ef-b4fc-13549d16b1d7"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025/04/01
+                      合作社區限定-長者健康調查與諮詢(後測)-宜蘭南澳金岳文健站
+                      part 2
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/1 (二)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/0b293e30-f409-11ef-b92c-837137199096"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025/04/01合作社區限定-長者健康調查與諮詢(後測)-新竹五峰清泉文健站
+                      part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/1 (二)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/2decb7d0-088b-11f0-98ab-4383d5fbe027"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:30:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.02 合作社區限定-長者健康調查與諮詢(後測)-
+                      臺東關山電光文健站 part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/2 (三)</div>
+                      <div style="margin: auto 0px">6:30-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">90分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/0953eba0-0886-11f0-8087-39ee12cd582d"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.02 合作社區限定-長者健康調查與諮詢(前測)-
+                      嘉義阿里山里佳文健站 part 2
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/2 (三)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/7e582910-0ae9-11f0-bd36-0f65bd10795c"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025/04/07合作社區限定-長者健康調查與諮詢(前測)-臺中市和平雪山坑文化健康站
+                      part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/7 (一)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/d9fc6ab0-094f-11f0-b954-4ddcaa2cd2c2"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      微笑超慢跑，關節不好也能輕鬆跑(台語)
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/7 (一)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">名額剩7</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/3d5c5910-0baf-11f0-b80d-b9a47e9b4fc1"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    02:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.07 合作社區限定-長者健康調查與諮詢(後測)-
+                      苗栗西湖千宏醫事C part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/7 (一)</div>
+                      <div style="margin: auto 0px">6:30-8:30</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">120分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/212b87f0-088c-11f0-834c-1d349b9a318b"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:30:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.09 合作社區限定-長者健康調查與諮詢(後測)-
+                      臺東關山電光文健站 part 2
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/9 (三)</div>
+                      <div style="margin: auto 0px">6:30-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">90分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/c184fb00-0bb1-11f0-9356-2362ed9b1ea2"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    02:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.09 合作社區限定-長者健康調查與諮詢(後測)-
+                      臺東巴布麓文健站 part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/9 (三)</div>
+                      <div style="margin: auto 0px">6:30-8:30</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">120分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/6a4f7ff0-0bb0-11f0-b287-655cac040fee"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    02:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.09 合作社區限定-長者健康調查與諮詢(後測)-
+                      苗栗西湖千宏醫事C part 2
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/9 (三)</div>
+                      <div style="margin: auto 0px">6:30-8:30</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">120分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/44adf450-0950-11f0-94f8-5b3d5dfc5b5f"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      聽得清、看得明，生活更安心(台語)
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/9 (三)</div>
+                      <div style="margin: auto 0px">11:00-12:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">名額剩5</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/f7bfcd60-0aeb-11f0-883e-0b6ddba67a40"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.10合作社區限定-長者健康調查與諮詢(前測)-
+                      嘉義阿里山茶山文健站 part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/10 (四)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">限量1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/b61b41b0-0aea-11f0-b41c-5f8b3632a26c"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.10 合作社區限定-長者健康調查與諮詢(前測)-
+                      苗栗泰安士林文健站 part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/10 (四)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/e103c640-0950-11f0-8491-314cec88318a"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      認知大作戰，揪你來挑戰(國語)
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/10 (四)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">名額剩5</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/d3632100-088f-11f0-a0ce-537713baeab7"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:30:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.10合作社區限定-長者健康調查與諮詢(後測)-
+                      花蓮鳳林鳳信文健站 part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/10 (四)</div>
+                      <div style="margin: auto 0px">7:00-8:30</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">90分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/47e30050-088f-11f0-b478-15a55799b43c"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:30:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.10 合作社區限定-長者健康調查與諮詢(後測)-
+                      南投仁愛眉原文健站 part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/10 (四)</div>
+                      <div style="margin: auto 0px">7:00-8:30</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">90分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/bdba41f0-0bb2-11f0-a868-77d5bc0033c0"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:30:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.11
+                      合作社區限定-長者健康調查與諮詢(後測)-南投信義青雲文健站
+                      part 4
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/11 (五)</div>
+                      <div style="margin: auto 0px">7:00-8:30</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">90分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/27ec6490-0951-11f0-8a8c-b98595f82d4d"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      血壓控制很重要，有氧運動不可少(台語)
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/14 (一)</div>
+                      <div style="margin: auto 0px">11:00-12:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">名額剩11</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/02f67ac0-0aed-11f0-8ffc-3110272b864e"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025/04/15合作社區限定-長者健康調查與諮詢(前測)-新竹五峰桃山文健站
+                      part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/15 (二)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/ed7decf0-0bbe-11f0-901a-c3a73a97fd1d"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    02:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.15 合作社區限定-長者健康調查與諮詢(後測)-
+                      彰化溪湖憶智樂活之家 part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/15 (二)</div>
+                      <div style="margin: auto 0px">10:30-12:30</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">120分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/fd2a4e80-0bc0-11f0-a144-d93ec93471e8"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:30:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.16 合作社區限定-長者健康調查與諮詢(後測)-
+                      彰化埤頭崙腳 part 1
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/16 (三)</div>
+                      <div style="margin: auto 0px">6:30-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">90分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/2f730240-0952-11f0-ab25-7bfdb540a025"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      怕胖？想控醣？中醫食療.穴道按摩(國語)
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/16 (三)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">名額剩7</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/1f9c3550-0bc1-11f0-807b-379061990285"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:30:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.17 合作社區限定-長者健康調查與諮詢(後測)-
+                      彰化埤頭崙腳 part 2
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/17 (四)</div>
+                      <div style="margin: auto 0px">6:30-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">90分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/f6179e20-ffd3-11ef-b70f-1f544a639cd4"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      合作社區限定-長者健康調查與諮詢(前測)-臺東東河泰源社照C
+                      part 2
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/17 (四)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">限量1</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/72616880-0952-11f0-bac2-c3e722383fec"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      五行顏色好有趣，讓你每天都歡喜！(台語)
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/21 (一)</div>
+                      <div style="margin: auto 0px">11:00-12:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#000" class="sc-jtRfpW bwodTg">適合團體</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">限量12</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/a8709f50-0bb3-11f0-8e56-6d66f0a17994"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:30:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.22合作社區限定-長者健康調查與諮詢(後測)-
+                      花蓮鳳林鳳信文健站 part 2
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/22 (二)</div>
+                      <div style="margin: auto 0px">7:00-8:30</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">90分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/d41dc5d0-088c-11f0-b4b9-c7d28df2282e"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:30:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.23 合作社區限定-長者健康調查與諮詢(後測)-
+                      臺東關山電光文健站 part 3
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/23 (三)</div>
+                      <div style="margin: auto 0px">6:30-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">90分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/0faee610-0bb2-11f0-acef-57a770c67b98"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    02:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.23 合作社區限定-長者健康調查與諮詢(後測)-
+                      臺東巴布麓文健站 part 2
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/23 (三)</div>
+                      <div style="margin: auto 0px">6:30-8:30</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">120分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/c0d506c0-0952-11f0-bdbf-8f4207199db0"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      痠麻痛、無法久站？保健運動與按摩手法(台語)
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/23 (三)</div>
+                      <div style="margin: auto 0px">11:00-12:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">名額剩3</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/07473c90-0953-11f0-bf2c-07184e70c40f"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      動起來唱起來，音樂喚醒記憶與動作(國語)
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/24 (四)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">名額剩7</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/9915f450-0bbe-11f0-a733-997f931f5f2c"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:30:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.25 合作社區限定-長者健康調查與諮詢(後測)-
+                      花蓮鳳林鳳信文健站 part 3
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/25 (五)</div>
+                      <div style="margin: auto 0px">7:00-8:30</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">90分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/4c9b4a70-0bbf-11f0-82c6-19882c18940c"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    02:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.25 合作社區限定-長者健康調查與諮詢(後測)-
+                      彰化溪湖憶智樂活之家 part 2
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/25 (五)</div>
+                      <div style="margin: auto 0px">10:30-12:30</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">120分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/42a15410-0953-11f0-abe5-99beb81d1fab"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      三高健康吃，營養.運動防中風(台語)
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/28 (一)</div>
+                      <div style="margin: auto 0px">11:00-12:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">名額剩11</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/80c07f00-0953-11f0-a6e9-f7ded6d8b61d"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:00:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      膝蓋保健運動操，健走爬山不用怕！(國語)
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/29 (二)</div>
+                      <div style="margin: auto 0px">7:00-8:00</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">60分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">名額剩6</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; margin-right: 10px; width: 228px">
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-jTzLTM sc-cTjmhe fjjOfd"
+              >
+                <div font-size="[object Object]" class="sc-eXEjpC jFCrRm">
+                  <div class="sc-kIPQKe IOAGx">
+                    <img
+                      src="https://storage.googleapis.com/pro-wacare-pic/ThumbnailUrl/71430611710190/19e60320-0bc6-11f0-9038-5962b94fca5e"
+                    />
+                  </div>
+                  <div
+                    font-size="0.8125rem"
+                    color="#ffffff"
+                    class="sc-elJkPf hLPWvM"
+                  >
+                    01:30:00
+                  </div>
+                </div>
+                <div class="sc-iYUSvU eNbfaC">
+                  <div
+                    font-size="1rem"
+                    color="textBlack"
+                    class="sc-dNLxif sc-jqCOkK sc-uJMKN hIQPhD"
+                  >
+                    <div style="font-weight: bold; margin: 2px 0px">
+                      2025.04.30 合作社區限定-長者健康調查與諮詢(後測)-
+                      南投仁愛眉原文健站 part 2
+                    </div>
+                    <div
+                      style="
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 4px 0px;
+                        font-size: 0.95rem;
+                      "
+                    >
+                      <div style="margin-right: 5px">2025/4/30 (三)</div>
+                      <div style="margin: auto 0px">7:00-8:30</div>
+                    </div>
+                    <div class="sc-cHSUfg gToazk">
+                      <div color="#000" class="sc-jtRfpW bwodTg">90分鐘</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">免費</div>
+                      <div color="#fff" class="sc-jtRfpW dAIyl">額滿</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center bg-gray5 pt-10 w-full">
+          <div class="w-[1440px]">
+            <div class="flex flex-col lg:flex-row mx-8 justify-between gap-x-4">
+              <div class="flex">
+                <div>
+                  <img
+                    src="/static/images/logo/WaCareLogo.svg"
+                    alt="WaCareLogo"
+                    style="width: 136px"
+                  /><img
+                    class="mt-6 cursor-pointer block"
+                    src="/static/images/logo/footer-apple.svg"
+                    alt="apple"
+                    style="width: 136px"
+                  /><img
+                    class="mt-3 cursor-pointer block"
+                    src="/static/images/logo/footer-google.svg"
+                    alt="google"
+                    style="width: 136px"
+                  />
+                </div>
+                <div class="ml-6 md:ml-12">
+                  <div class="flex w-full justify-center">
+                    <img
+                      src="/static/images/logo/WaCareLogoMobile.svg"
+                      alt="WaCareLogo"
+                      style="height: 27.5px"
+                    /><img
+                      class="ml-2"
+                      src="/static/images/logo/WaProText.svg"
+                      alt="WaCareLogo"
+                    />
+                  </div>
+                  <img
+                    class="mt-6 cursor-pointer block"
+                    src="/static/images/logo/footer-apple.svg"
+                    alt="apple"
+                    style="width: 136px"
+                  /><img
+                    class="mt-3 cursor-pointer block"
+                    src="/static/images/logo/footer-google.svg"
+                    alt="google"
+                    style="width: 136px"
+                  />
+                </div>
+              </div>
+              <div>
+                <div class="md:flex mt-6 md:mt-9 lg:mt-0 text-black">
+                  <div>
+                    <div class="font-bold mb-4 md:mb-6">聯絡我們</div>
+                    <div class="mb-2 cursor-pointer">企業社會責任專區</div>
+                    <div class="mb-2 cursor-pointer">工作機會</div>
+                    <div class="mb-2 cursor-pointer">企業合作</div>
+                    <div class="mb-2 cursor-pointer">線上客服</div>
+                    <div class="mb-2">contact@51donate.com</div>
+                  </div>
+                  <div class="md:ml-12 mt-6 md:mt-0">
+                    <div class="font-bold mb-4 md:mb-6">隱私權政策</div>
+                    <div class="mb-2 cursor-pointer">隱私政策</div>
+                    <div class="mb-2 cursor-pointer">服務條款</div>
+                    <div class="mb-2 cursor-pointer">Q &amp; A</div>
+                  </div>
+                  <div class="md:ml-12 mt-6 md:mt-0">
+                    <div class="font-bold mb-4 md:mb-6">偏鄉公益</div>
+                    <div class="mb-2 cursor-pointer">數位人道協會</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="mt-6 md:mt-9 lg:mt-0 text-black">
+                  <div class="font-bold mb-4 md:mb-6">追蹤我們</div>
+                  <div class="flex">
+                    <img
+                      class="mr-5 cursor-pointer"
+                      src="/static/images/icons/footer-fb.svg"
+                      alt="fb"
+                    /><img
+                      class="mr-5 cursor-pointer"
+                      src="/static/images/icons/footer-line.svg"
+                      alt="line"
+                    /><img
+                      class="cursor-pointer"
+                      src="/static/images/icons/footer-youtube.svg"
+                      alt="youtube"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-center md:text-left md:flex text-sm text-gray1 mb-4 md:mb-8 mx-8 mt-14 md:mt-12"
+            >
+              <p>Copyright © 2022 吉樂健康資訊科技股份有限公司</p>
+              <p class="text-center md:text-left">(La Vida Tec Co., Ltd)</p>
+            </div>
+          </div>
+        </div>
+        <div width="100%" color="textBlack" class="sc-dyGzUR gWyaCY">
+          <div font-size="[object Object]" class="sc-gmeYpB fZIePl">
+            <div
+              height="fit-content"
+              class="sc-bdVaJa sc-bwzfXH sc-gqjmRU jMwCeV"
+              style="position: relative; max-width: 100%"
+            >
+              <div class="sc-drKuOJ gTIbkM">
+                <div
+                  font-size="4"
+                  font-weight="bold"
+                  color="primary"
+                  class="sc-gGBfsJ dsTAHo"
+                >
+                  免費
+                </div>
+              </div>
+              <div class="sc-gRnDUn fjuEjq">
+                <div
+                  height="fit-content"
+                  width="fit-content"
+                  class="sc-bdVaJa sc-bwzfXH sc-iwsKbI kXNGTM"
+                >
+                  <div>
+                    <div color="#f08327" class="sc-caSCKo gsamLj">分享</div>
+                    <div class="sc-hgHYgh hLVuLm">
+                      <div
+                        height="fit-content"
+                        width="fit-content"
+                        class="sc-bdVaJa sc-bwzfXH sc-ifAKCX clkDbQ"
+                      >
+                        <div style="padding: 0px 5px">
+                          <a
+                            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcourse.wacare.live%2Fcourse%2F215074780660250%2Fmain%3FassociationId%3D71430611710190%26categoryId%3D2573402601949%26openExternalBrowser%3D1&amp;quote="
+                            target="_blank"
+                            ><img
+                              src="/static/images/icons/facebook.svg"
+                              alt=""
+                              style="height: 70px"
+                          /></a>
+                        </div>
+                        <div style="padding: 0px 5px">
+                          <a
+                            href="https://lineit.line.me/share/ui?url=https%3A%2F%2Fcourse.wacare.live%2Fcourse%2F215074780660250%2Fmain%3FassociationId%3D71430611710190%26categoryId%3D2573402601949%26openExternalBrowser%3D1&amp;text="
+                            target="_blank"
+                            ><img
+                              src="/static/images/icons/line.svg"
+                              alt=""
+                              style="height: 70px"
+                          /></a>
+                        </div>
+                        <div style="padding: 0px 5px">
+                          <a
+                            href="https://twitter.com/share?url=https%3A%2F%2Fcourse.wacare.live%2Fcourse%2F215074780660250%2Fmain%3FassociationId%3D71430611710190%26categoryId%3D2573402601949%26openExternalBrowser%3D1&amp;text="
+                            target="_blank"
+                            ><img
+                              src="/static/images/icons/twitter.svg"
+                              alt=""
+                              style="height: 70px"
+                          /></a>
+                        </div>
+                        <div style="padding: 0px 5px">
+                          <img
+                            src="/static/images/icons/copy.svg"
+                            alt=""
+                            style="height: 42px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="width: 10px"></div>
+                  <div color="secondary" class="sc-caSCKo gYvXvp">報名</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sc-cqCuEk dXUuHE">
+            <div
+              height="100vh"
+              width="100vw"
+              class="sc-bdVaJa sc-bwzfXH sc-gzVnrw lmLKCz"
+            >
+              <div
+                class="sc-dliRfk mQgnx"
+                style="width: 400px; padding: 8px 10px; margin: 20px"
+              >
+                <div
+                  width="100%"
+                  height="100%"
+                  class="sc-bdVaJa sc-htpNat sc-kAzzGY fEZAoY"
+                >
+                  <div
+                    width="100%"
+                    height="10%"
+                    class="sc-bdVaJa sc-bwzfXH sc-gzVnrw izwKwO"
+                    style="
+                      font-size: 1rem;
+                      border-bottom: 1px solid rgb(239, 239, 239);
+                      color: rgb(240, 131, 39);
+                      padding: 10px 0px;
+                    "
+                  ></div>
+                  <div
+                    width="100%"
+                    height="20%"
+                    class="sc-bdVaJa sc-bwzfXH sc-bZQynM kmbRPv"
+                    style="
+                      font-size: 1rem;
+                      color: rgb(137, 137, 137);
+                      margin: 10px 0px;
+                    "
+                  ></div>
+                  <div
+                    width="100%"
+                    height="10%"
+                    class="sc-bdVaJa sc-bwzfXH sc-gzVnrw izwKwO"
+                    style="margin: 10px 0px"
+                  >
+                    <div
+                      color="secondary"
+                      height="44px"
+                      class="sc-dVhcbM cNgZVl"
+                    >
+                      確認
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sc-cqCuEk dXUuHE">
+            <div
+              height="100vh"
+              class="sc-bdVaJa sc-htpNat sc-kAzzGY dfOngo"
+              style="display: -webkit-box"
+            >
+              <div class="sc-dliRfk mQgnx">
+                <div class="sc-bdVaJa sc-htpNat sc-kAzzGY yYeRL">
+                  <div
+                    height="20%"
+                    class="sc-bdVaJa sc-bwzfXH sc-ifAKCX ccYbpE"
+                    style="
+                      font-size: 1rem;
+                      border-bottom: 1px solid rgb(239, 239, 239);
+                      color: rgb(240, 131, 39);
+                    "
+                  >
+                    簽到成功
+                  </div>
+                  <div
+                    height="50%"
+                    class="sc-bdVaJa sc-bwzfXH sc-bxivhb hRbIkl"
+                    style="font-size: 1rem; color: black; margin-top: 10px"
+                  >
+                    <div style="white-space: break-spaces"></div>
+                  </div>
+                  <div
+                    height="30%"
+                    class="sc-bdVaJa sc-bwzfXH sc-iwsKbI cJWFdZ"
+                  >
+                    <div
+                      color="secondary"
+                      height="44px"
+                      class="sc-dVhcbM cNgZVl"
+                    >
+                      進入線上教室
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sc-cqCuEk dXUuHE">
+          <div
+            height="100vh"
+            class="sc-bdVaJa sc-htpNat sc-kAzzGY dfOngo"
+            style="display: -webkit-box"
+          >
+            <div class="sc-dliRfk mQgnx">
+              <div class="sc-bdVaJa sc-htpNat sc-kAzzGY bNZJbl">
+                <div
+                  height="15%"
+                  class="sc-bdVaJa sc-bwzfXH sc-ifAKCX fYGBPD"
+                  style="
+                    font-size: 1rem;
+                    border-bottom: 1px solid rgb(239, 239, 239);
+                    color: rgb(240, 131, 39);
+                  "
+                >
+                  掃描下載WaCare
+                </div>
+                <div
+                  height="25%"
+                  class="sc-bdVaJa sc-bwzfXH sc-bxivhb fmIOhY"
+                  style="
+                    font-size: 1rem;
+                    color: rgb(137, 137, 137);
+                    margin-top: 10px;
+                  "
+                >
+                  <div style="white-space: break-spaces">
+                    請先下載WaCare app並註冊成為用戶
+                  </div>
+                </div>
+                <div height="40%" class="sc-bdVaJa sc-bwzfXH sc-gzVnrw cLCaUc">
+                  <canvas
+                    height="160"
+                    width="160"
+                    style="height: 128px; width: 128px"
+                  ></canvas>
+                </div>
+                <div height="20%" class="sc-bdVaJa sc-bwzfXH sc-iwsKbI cmtn">
+                  <div color="secondary" height="44px" class="sc-dVhcbM cNgZVl">
+                    關閉
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sc-cqCuEk dXUuHE">
+          <div
+            height="100vh"
+            class="sc-bdVaJa sc-htpNat sc-kAzzGY dfOngo"
+            style="display: -webkit-box"
+          >
+            <div class="sc-dliRfk mQgnx">
+              <div class="sc-bdVaJa sc-htpNat sc-kAzzGY bNZJbl">
+                <div
+                  height="15%"
+                  class="sc-bdVaJa sc-bwzfXH sc-ifAKCX fYGBPD"
+                  style="
+                    font-size: 1rem;
+                    border-bottom: 1px solid rgb(239, 239, 239);
+                    color: rgb(240, 131, 39);
+                  "
+                >
+                  掃描條碼進入 App 聯繫專家
+                </div>
+                <div
+                  height="25%"
+                  class="sc-bdVaJa sc-bwzfXH sc-bxivhb fmIOhY"
+                  style="
+                    font-size: 1rem;
+                    color: rgb(137, 137, 137);
+                    margin-top: 10px;
+                  "
+                >
+                  <div style="white-space: break-spaces">
+                    1. 請掃描條碼登入 WaCare App 2. 如尚未下載 WaCare
+                    App，系統會自動導向下載商城 3. 掃描成功後，WaCare App
+                    將自動開啟主辦聯繫頁面
+                  </div>
+                </div>
+                <div height="40%" class="sc-bdVaJa sc-bwzfXH sc-gzVnrw cLCaUc">
+                  <canvas
+                    height="160"
+                    width="160"
+                    style="height: 128px; width: 128px"
+                  ></canvas>
+                </div>
+                <div height="20%" class="sc-bdVaJa sc-bwzfXH sc-iwsKbI cmtn">
+                  <div color="secondary" height="44px" class="sc-dVhcbM cNgZVl">
+                    關閉
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sc-cqCuEk dXUuHE">
+          <div
+            height="100vh"
+            width="100vw"
+            class="sc-bdVaJa sc-htpNat sc-kAzzGY eprSYT"
+            style="display: -webkit-box"
+          >
+            <div class="sc-dliRfk mQgnx">
+              <div
+                height="fit-content"
+                class="sc-bdVaJa sc-htpNat sc-kAzzGY gYFNVz"
+              >
+                <div
+                  height="auto"
+                  class="sc-bdVaJa sc-bwzfXH sc-gqjmRU bUpZFQ"
+                  style="
+                    font-size: 1rem;
+                    border-bottom: 1px solid rgb(239, 239, 239);
+                    color: rgb(240, 131, 39);
+                    padding: 10px 0px;
+                  "
+                >
+                  掃描條碼進入App報名
+                  <div
+                    width="auto"
+                    height="30px"
+                    class="sc-bdVaJa sc-bwzfXH sc-gzVnrw DLrwL"
+                  >
+                    <img
+                      src="/static/images/icons/ic_fourm_cancelphoto.png"
+                      style="height: 100%; cursor: pointer"
+                    />
+                  </div>
+                </div>
+                <div
+                  height="auto"
+                  class="sc-bdVaJa sc-bwzfXH sc-bxivhb ENXvR"
+                  style="
+                    font-size: 1rem;
+                    color: rgb(137, 137, 137);
+                    margin-top: 10px;
+                  "
+                >
+                  <div style="white-space: break-spaces">
+                    1.請登入WaCare App進行報名 2.在WaCare
+                    App完成報名後，再重新整理頁面即可在網頁版同步觀看
+                  </div>
+                </div>
+                <div
+                  height="auto"
+                  class="sc-bdVaJa sc-bwzfXH sc-gzVnrw fnvezU"
+                  style="padding: 10px 0px"
+                >
+                  <canvas
+                    height="160"
+                    width="160"
+                    style="height: 128px; width: 128px"
+                  ></canvas>
+                </div>
+                <div
+                  height="auto"
+                  class="sc-bdVaJa sc-bwzfXH sc-iwsKbI RPUSI"
+                  style="padding: 10px 0px"
+                >
+                  <div
+                    color="secondary"
+                    height="44px"
+                    class="sc-dVhcbM bBqIIy"
+                    style="cursor: pointer; padding: 0px 10px"
+                  >
+                    重新整理
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sc-cqCuEk dXUuHE">
+          <div
+            height="100vh"
+            width="100vw"
+            class="sc-bdVaJa sc-bwzfXH sc-gzVnrw lmLKCz"
+          >
+            <div
+              class="sc-dliRfk mQgnx"
+              style="width: 400px; padding: 8px 10px; margin: 20px"
+            >
+              <div
+                width="100%"
+                height="100%"
+                class="sc-bdVaJa sc-htpNat sc-kAzzGY fEZAoY"
+              >
+                <div
+                  width="100%"
+                  height="10%"
+                  class="sc-bdVaJa sc-bwzfXH sc-gzVnrw izwKwO"
+                  style="
+                    font-size: 1rem;
+                    border-bottom: 1px solid rgb(239, 239, 239);
+                    color: rgb(240, 131, 39);
+                    padding: 10px 0px;
+                  "
+                >
+                  登入
+                </div>
+                <div
+                  width="100%"
+                  height="20%"
+                  class="sc-bdVaJa sc-bwzfXH sc-bZQynM kmbRPv"
+                  style="
+                    font-size: 1rem;
+                    color: rgb(137, 137, 137);
+                    margin: 10px 0px;
+                  "
+                >
+                  登入成功
+                </div>
+                <div
+                  width="100%"
+                  height="10%"
+                  class="sc-bdVaJa sc-bwzfXH sc-gzVnrw izwKwO"
+                  style="margin: 10px 0px"
+                >
+                  <div color="secondary" height="44px" class="sc-dVhcbM cNgZVl">
+                    確認
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sc-cqCuEk dXUuHE">
+          <div
+            height="100vh"
+            width="100vw"
+            class="sc-bdVaJa sc-htpNat sc-kAzzGY eprSYT"
+            style="display: -webkit-box"
+          >
+            <div class="sc-dliRfk mQgnx">
+              <div height="auto" class="sc-bdVaJa sc-htpNat sc-kAzzGY dGetVp">
+                <div
+                  class="sc-bdVaJa sc-bwzfXH sc-gqjmRU fMEnll"
+                  style="
+                    font-size: 1rem;
+                    border-bottom: 1px solid rgb(239, 239, 239);
+                    color: rgb(240, 131, 39);
+                  "
+                >
+                  報名準備
+                  <div
+                    width="auto"
+                    height="65%"
+                    class="sc-bdVaJa sc-bwzfXH sc-gzVnrw gkLHZv"
+                  >
+                    <img
+                      src="/static/images/icons/ic_fourm_cancelphoto.png"
+                      style="height: 100%; cursor: pointer"
+                    />
+                  </div>
+                </div>
+                <div
+                  height="50%"
+                  class="sc-bdVaJa sc-bwzfXH sc-bxivhb ikHpbW"
+                  style="
+                    font-size: 1rem;
+                    color: rgb(137, 137, 137);
+                    margin: 10px 0px;
+                  "
+                >
+                  <div style="white-space: break-spaces">
+                    登入/註冊會員後，即可報名課程，快來線上一起學習知識吧!
+                  </div>
+                </div>
+                <div
+                  height="30%"
+                  class="sc-bdVaJa sc-bwzfXH sc-iwsKbI fAJzgm"
+                  style="margin: 10px 0px"
+                >
+                  <div
+                    color="secondary"
+                    height="44px"
+                    class="sc-dVhcbM bBqIIy"
+                    style="cursor: pointer; padding: 0px 10px"
+                  >
+                    登入/註冊
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sc-cqCuEk dXUuHE">
+          <div
+            height="100vh"
+            width="100vw"
+            class="sc-bdVaJa sc-htpNat sc-kAzzGY eprSYT"
+            style="display: -webkit-box"
+          >
+            <div class="sc-dliRfk mQgnx">
+              <div height="auto" class="sc-bdVaJa sc-htpNat sc-kAzzGY dGetVp">
+                <div
+                  class="sc-bdVaJa sc-bwzfXH sc-gqjmRU fMEnll"
+                  style="
+                    font-size: 1rem;
+                    border-bottom: 1px solid rgb(239, 239, 239);
+                    color: rgb(240, 131, 39);
+                  "
+                >
+                  前往付款
+                  <div
+                    width="auto"
+                    height="65%"
+                    class="sc-bdVaJa sc-bwzfXH sc-gzVnrw gkLHZv"
+                  >
+                    <img
+                      src="/static/images/icons/ic_fourm_cancelphoto.png"
+                      style="height: 100%; cursor: pointer"
+                    />
+                  </div>
+                </div>
+                <div
+                  height="50%"
+                  class="sc-bdVaJa sc-bwzfXH sc-bxivhb ikHpbW"
+                  style="
+                    font-size: 1rem;
+                    color: rgb(137, 137, 137);
+                    margin: 10px 0px;
+                  "
+                >
+                  <div style="white-space: break-spaces">
+                    報名成功！請繼續完成付款
+                  </div>
+                </div>
+                <div
+                  height="30%"
+                  class="sc-bdVaJa sc-bwzfXH sc-iwsKbI fAJzgm"
+                  style="margin: 10px 0px"
+                >
+                  <div
+                    color="secondary"
+                    height="44px"
+                    class="sc-dVhcbM dOtpFL"
+                    style="
+                      border: 1px solid rgb(240, 131, 39);
+                      cursor: pointer;
+                      padding: 0px 10px;
+                      color: rgb(240, 131, 39);
+                    "
+                  >
+                    稍後付款
+                  </div>
+                  <div style="width: 2%"></div>
+                  <div
+                    color="secondary"
+                    height="44px"
+                    class="sc-dVhcbM bBqIIy"
+                    style="cursor: pointer; padding: 0px 10px"
+                  >
+                    立即付款
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sc-cqCuEk dXUuHE">
+          <div
+            height="100vh"
+            class="sc-bdVaJa sc-htpNat sc-kAzzGY dfOngo"
+            style="display: -webkit-box"
+          >
+            <div class="sc-dliRfk mQgnx">
+              <div height="auto" class="sc-bdVaJa sc-htpNat sc-kAzzGY gEfcii">
+                <div
+                  height="auto"
+                  class="sc-bdVaJa sc-bwzfXH sc-ifAKCX dqkTSg"
+                  style="
+                    font-size: 1rem;
+                    border-bottom: 1px solid rgb(239, 239, 239);
+                    color: rgb(240, 131, 39);
+                    padding: 10px 0px;
+                  "
+                >
+                  等候審核
+                </div>
+                <div
+                  height="auto"
+                  class="sc-bdVaJa sc-bwzfXH sc-bxivhb jftaJb"
+                  style="
+                    font-size: 1rem;
+                    color: rgb(137, 137, 137);
+                    margin: 10px 0px;
+                  "
+                >
+                  <div style="white-space: break-spaces">
+                    報名成功！請等候審核通過後，繼續完成付款
+                  </div>
+                </div>
+                <div
+                  height="auto"
+                  class="sc-bdVaJa sc-bwzfXH sc-iwsKbI fnAgSS"
+                  style="margin: 10px 0px"
+                >
+                  <div color="secondary" height="44px" class="sc-dVhcbM cNgZVl">
+                    關閉
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sc-fcdeBU jkKSUW">
+          <div class="sc-kxynE dSmRQM">
+            <div
+              title=""
+              role="button"
+              aria-label="animation"
+              tabindex="0"
+              style="
+                width: 100px;
+                height: 50px;
+                overflow: hidden;
+                margin: 0px auto;
+                outline: none;
+              "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 100 50"
+                width="100"
+                height="50"
+                preserveAspectRatio="xMidYMid slice"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  transform: translate3d(0px, 0px, 0px);
+                "
+              >
+                <defs>
+                  <clipPath id="__lottie_element_2">
+                    <rect width="100" height="50" x="0" y="0"></rect>
+                  </clipPath>
+                  <clipPath id="__lottie_element_4">
+                    <path d="M0,0 L1920,0 L1920,1080 L0,1080z"></path>
+                  </clipPath>
+                </defs>
+                <g clip-path="url(#__lottie_element_2)">
+                  <g
+                    clip-path="url(#__lottie_element_4)"
+                    transform="matrix(0.2199999988079071,0,0,0.2199999988079071,-161.1999969482422,-93.80000305175781)"
+                    opacity="1"
+                    style="display: block"
+                  >
+                    <g
+                      transform="matrix(0,0,0,0,1092,540)"
+                      opacity="1"
+                      style="display: block"
+                    >
+                      <g opacity="1" transform="matrix(1,0,0,1,4.75,4.75)">
+                        <path
+                          fill="rgb(204,204,204)"
+                          fill-opacity="1"
+                          d=" M4.5,0 C4.5,2.484999895095825 2.484999895095825,4.5 0,4.5 C-2.484999895095825,4.5 -4.5,2.484999895095825 -4.5,0 C-4.5,-2.484999895095825 -2.484999895095825,-4.5 0,-4.5 C2.484999895095825,-4.5 4.5,-2.484999895095825 4.5,0z"
+                        ></path>
+                      </g>
+                    </g>
+                    <g
+                      transform="matrix(10,0,0,10,1047,495)"
+                      opacity="1"
+                      style="display: block"
+                    >
+                      <g opacity="1" transform="matrix(1,0,0,1,4.25,4.25)">
+                        <path
+                          fill="rgb(239,131,39)"
+                          fill-opacity="1"
+                          d=" M4,0 C4,2.2090001106262207 2.2090001106262207,4 0,4 C-2.2090001106262207,4 -4,2.2090001106262207 -4,0 C-4,-2.2090001106262207 -2.2090001106262207,-4 0,-4 C2.2090001106262207,-4 4,-2.2090001106262207 4,0z"
+                        ></path>
+                      </g>
+                    </g>
+                    <g
+                      transform="matrix(0,0,0,0,960,540)"
+                      opacity="1"
+                      style="display: block"
+                    >
+                      <g opacity="1" transform="matrix(1,0,0,1,4.75,4.75)">
+                        <path
+                          fill="rgb(204,204,204)"
+                          fill-opacity="1"
+                          d=" M4.5,0 C4.5,2.484999895095825 2.484999895095825,4.5 0,4.5 C-2.484999895095825,4.5 -4.5,2.484999895095825 -4.5,0 C-4.5,-2.484999895095825 -2.484999895095825,-4.5 0,-4.5 C2.484999895095825,-4.5 4.5,-2.484999895095825 4.5,0z"
+                        ></path>
+                      </g>
+                    </g>
+                    <g
+                      transform="matrix(12.319405555725098,0,0,12.319405555725098,904.5626831054688,484.56268310546875)"
+                      opacity="1"
+                      style="display: block"
+                    >
+                      <g opacity="1" transform="matrix(1,0,0,1,4.25,4.25)">
+                        <path
+                          fill="rgb(239,131,39)"
+                          fill-opacity="1"
+                          d=" M4,0 C4,2.2090001106262207 2.2090001106262207,4 0,4 C-2.2090001106262207,4 -4,2.2090001106262207 -4,0 C-4,-2.2090001106262207 -2.2090001106262207,-4 0,-4 C2.2090001106262207,-4 4,-2.2090001106262207 4,0z"
+                        ></path>
+                      </g>
+                    </g>
+                    <g
+                      transform="matrix(10.464681625366211,0,0,10.464681625366211,775.6765747070312,487.67657470703125)"
+                      opacity="0.6644177411322457"
+                      style="display: block"
+                    >
+                      <g opacity="1" transform="matrix(1,0,0,1,4.75,4.75)">
+                        <path
+                          fill="rgb(204,204,204)"
+                          fill-opacity="1"
+                          d=" M4.5,0 C4.5,2.484999895095825 2.484999895095825,4.5 0,4.5 C-2.484999895095825,4.5 -4.5,2.484999895095825 -4.5,0 C-4.5,-2.484999895095825 -2.484999895095825,-4.5 0,-4.5 C2.484999895095825,-4.5 4.5,-2.484999895095825 4.5,0z"
+                        ></path>
+                      </g>
+                    </g>
+                    <g
+                      transform="matrix(11.124066352844238,0,0,11.124066352844238,777.9417114257812,489.94171142578125)"
+                      opacity="1"
+                      style="display: block"
+                    >
+                      <g opacity="1" transform="matrix(1,0,0,1,4.25,4.25)">
+                        <path
+                          fill="rgb(239,131,39)"
+                          fill-opacity="1"
+                          d=" M4,0 C4,2.2090001106262207 2.2090001106262207,4 0,4 C-2.2090001106262207,4 -4,2.2090001106262207 -4,0 C-4,-2.2090001106262207 -2.2090001106262207,-4 0,-4 C2.2090001106262207,-4 4,-2.2090001106262207 4,0z"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="logo-section">
+            <div>
+              <img src="assets/large_logo.jpeg" alt="WaCareLogo" /><img
+                class="footer-apple"
+                src="assets/footer-apple.svg"
+                alt="apple"
+              /><img
+                class="footer-google"
+                src="assets/footer-google.svg"
+                alt="google"
+              />
+            </div>
+            <div class="logo-container">
+              <div class="logo-flex">
+                <img
+                  src="assets/mobile_logo.svg"
+                  alt="WaCareLogo"
+                  class="mobile-logo-footer"
+                /><img
+                  class="wa-pro"
+                  src="assets/WaProText.svg"
+                  alt="WaCareLogo"
+                />
+              </div>
+              <img
+                class="footer-apple"
+                src="assets/footer-apple.svg"
+                alt="apple"
+              /><img
+                class="footer-google"
+                src="assets/footer-google.svg"
+                alt="google"
+              />
+            </div>
+          </div>
+          <div>
+            <div class="contact-section">
+              <div>
+                <div class="section-title">聯絡我們</div>
+                <div class="link">企業社會責任專區</div>
+                <div class="link">工作機會</div>
+                <div class="link">企業合作</div>
+                <div class="link">線上客服</div>
+                <div class="mb-2">contact@51donate.com</div>
+              </div>
+              <div class="wrapper">
+                <div class="section-title">隱私權政策</div>
+                <div class="link">隱私政策</div>
+                <div class="link">服務條款</div>
+                <div class="link">Q &amp; A</div>
+              </div>
+              <div class="wrapper">
+                <div class="section-title">偏鄉公益</div>
+                <div class="link">數位人道協會</div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="social-media-section">
+              <div class="section-title">追蹤我們</div>
+              <div class="flex">
+                <img
+                  class="social-icon"
+                  src="assets/footer-fb.svg"
+                  alt="fb"
+                /><img
+                  class="social-icon"
+                  src="assets/footer-line.svg"
+                  alt="line"
+                /><img
+                  class="social-icon"
+                  src="assets/footer-youtube.svg"
+                  alt="youtube"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-section">
+          <p>Copyright © 2022 吉樂健康資訊科技股份有限公司</p>
+          <p class="company">(La Vida Tec Co., Ltd)</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    const barIcon = document.querySelector(".bar-icon");
+    const targetElement = document.getElementById("target-element");
+
+    barIcon.addEventListener("click", () => {
+      if (
+        targetElement.style.display === "none" ||
+        targetElement.style.display === ""
+      ) {
+        targetElement.style.display = "block";
+        targetElement.style.height = "455px";
+        targetElement.style.overflow = "scroll";
+      } else {
+        targetElement.style.display = "none";
+        targetElement.style.height = "0px";
+        targetElement.style.overflow = "hidden";
+      }
+    });
+  </script>
+</html>
