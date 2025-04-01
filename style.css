@@ -1336,9 +1336,11 @@ main {
 .expert-card {
   width: 160px;
   height: 205px;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
   border-radius: 0.25rem;
   border: 1px solid #d1d5db;
-  cursor: pointer;
   transition: background-color 0.2s ease;
 }
 
