@@ -107,7 +107,7 @@
             </div>
             <div class="progress-container">
               <div class="progress-track">
-                <div class="progress-indicator"></div>
+                <div class="progress-indicator-health"></div>
               </div>
               <div class="progress-track"></div>
               <div class="progress-track"></div>
@@ -3896,7 +3896,9 @@
             // Show corresponding content
             const tabId = this.getAttribute("data-tab");
 
-            const progress = document.querySelector(".progress-indicator");
+            const progress = document.querySelector(
+              ".progress-indicator-health"
+            );
             const tab1content = document.querySelector(".tab1-content");
             const tab2content = document.querySelector(".tab2-content");
             if (tabId === "tab-1") {

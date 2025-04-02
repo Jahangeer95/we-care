@@ -894,6 +894,8 @@ main {
   font-size: 0.875rem;
   margin-right: 1rem;
   cursor: pointer;
+  text-decoration: none;
+  color: #000;
 }
 
 .leXlmv {
@@ -2503,6 +2505,14 @@ donate-.contact-container {
   background-color: #f08327;
   position: absolute;
   transform: translate(100%);
+  transition: all 300ms ease;
+}
+.progress-indicator-health {
+  width: 50%;
+  height: 3px;
+  background-color: #f08327;
+  position: absolute;
+  transform: translate(0%);
   transition: all 300ms ease;
 }
 
