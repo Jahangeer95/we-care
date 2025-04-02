@@ -17,6 +17,10 @@
   flex-wrap: wrap;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .sticky-header {
   width: 100%;
   position: sticky;

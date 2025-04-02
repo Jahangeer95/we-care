@@ -1115,6 +1115,8 @@ main {
   margin-bottom: 5.5px;
   border-radius: 0.25rem;
   cursor: pointer;
+  text-decoration: none;
+  color: #000;
   transition: background-color 0.2s ease;
 }
 
@@ -1291,6 +1293,8 @@ main {
   align-items: center;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+  text-decoration: none;
+  color: #000;
   cursor: pointer;
 }
 
