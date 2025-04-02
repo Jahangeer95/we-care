@@ -2648,9 +2648,19 @@ donate-.contact-container {
   background-color: white;
 }
 
+.active-hFDrFW {
+  background-color: rgb(241, 245, 249);
+  border: 1px solid #000;
+}
+
 .article-container {
+  display: none;
   margin-top: 1rem;
   margin-left: 1rem;
+}
+
+.article-container-active {
+  display: block;
 }
 
 .css-1ip4w57 {
