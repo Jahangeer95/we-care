@@ -1471,6 +1471,8 @@ main {
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   margin-bottom: 1rem;
   cursor: pointer;
+  text-decoration: none;
+  color: #000;
   transition: all 0.3s ease;
 }
 
