@@ -301,6 +301,9 @@ body {
 .contact-section .link {
   margin-bottom: 0.5rem;
   cursor: pointer;
+  text-decoration: none;
+  display: block;
+  color: #000;
 }
 
 .social-media-section {
