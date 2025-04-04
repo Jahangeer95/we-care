@@ -13,7 +13,10 @@ main {
   padding-right: 8px;
   font-size: 1rem;
 }
-
+.link-class {
+  text-decoration: none;
+  color: #000;
+}
 .cgKYOY {
   display: grid;
   grid-template-columns: 80px auto;
